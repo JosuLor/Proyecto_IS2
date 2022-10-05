@@ -20,7 +20,8 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import domain.Registered;
 
 

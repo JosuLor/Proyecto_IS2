@@ -14,7 +14,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
 
 
 public class RegisterGUI extends JFrame {

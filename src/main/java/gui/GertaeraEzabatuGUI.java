@@ -24,11 +24,12 @@ import javax.swing.JScrollPane;
 
 import com.toedter.calendar.JCalendar;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Apustua;
 import domain.Event;
 import javax.swing.SwingConstants;
+
+import org.business_logic.BLFacade;
 
 public class GertaeraEzabatuGUI extends JFrame{
 
@@ -101,7 +102,7 @@ public class GertaeraEzabatuGUI extends JFrame{
 		
 		
 		BLFacade facade = MainGUI.getBusinessLogic();
-		datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar.getDate());
+		datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar.getDate());
 		paintDaysWithEvents(jCalendar,datesWithEventsCurrentMonth);
 		
 		
@@ -170,7 +171,7 @@ public class GertaeraEzabatuGUI extends JFrame{
 						
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar.getDate());
+						datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar.getDate());
 					}
 
 
@@ -183,7 +184,7 @@ public class GertaeraEzabatuGUI extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						Vector<domain.Event> events = (Vector<Event>) facade.getEvents(firstDay);
 
 						if (events.isEmpty())
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")

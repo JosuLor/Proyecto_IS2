@@ -1,0 +1,47 @@
+
+[org.business_logic.BLFacadeImplementation#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Ze
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaò ò( "startingBlock*˜
+startingBlocke
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaò  ò(4†
+ù
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaó ó(
+%0"
+__annotate*
+	WebMethod*
+
+edomain.Eventì
+ê
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaò' ò((
+edomain.Event"__annotation*
+
+%0•
+¢
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaó ó(
+%1"
+__annotate*
+	WebMethod*
+
+datejava.util.Dateò
+ï
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaò/ ò(3
+datejava.util.Date"__annotation*
+
+%1*
+1*Ó
+1e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaô ô(ê
+ç
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaö ö(0
+bjava.lang.Boolean"__id*
+"""o
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaú ú(
+"":
+edomain.Event:
+datejava.util.DateB-+
+)org.business_logic.BLFacadeImplementation

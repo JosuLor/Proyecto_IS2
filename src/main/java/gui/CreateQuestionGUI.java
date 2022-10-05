@@ -5,6 +5,8 @@ import java.util.*;
 
 import javax.swing.*;
 
+import org.business_logic.BLFacade;
+
 import com.toedter.calendar.JCalendar;
 
 import java.awt.*;
@@ -12,7 +14,6 @@ import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import exceptions.EventFinished;
@@ -21,8 +22,8 @@ import exceptions.QuestionAlreadyExist;
 public class CreateQuestionGUI extends JFrame {
 	private static final long serialVersionUID = 1L;
 
-	private JComboBox<Event> jComboBoxEvents = new JComboBox<Event>();
-	DefaultComboBoxModel<Event> modelEvents = new DefaultComboBoxModel<Event>();
+	private JComboBox<Event> jComboBoxEvents = new JComboBox<>();
+	DefaultComboBoxModel<Event> modelEvents = new DefaultComboBoxModel<>();
 
 	private JLabel jLabelListOfEvents = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ListEvents"));
 	private JLabel jLabelQuery = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("Query"));
@@ -108,7 +109,7 @@ public class CreateQuestionGUI extends JFrame {
 		
 		
 		BLFacade facade = MainGUI.getBusinessLogic();
-		datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar.getDate());
+		datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar.getDate());
 		paintDaysWithEvents(jCalendar,datesWithEventsCurrentMonth);
 		
 		
@@ -146,7 +147,7 @@ public class CreateQuestionGUI extends JFrame {
 						
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar.getDate());
+						datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar.getDate());
 					}
 
 
@@ -159,7 +160,7 @@ public class CreateQuestionGUI extends JFrame {
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						Vector<domain.Event> events = (Vector<Event>) facade.getEvents(firstDay);
 
 						if (events.isEmpty())
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")

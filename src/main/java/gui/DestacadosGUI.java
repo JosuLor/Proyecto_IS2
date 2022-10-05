@@ -14,7 +14,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import domain.Registered;
 import domain.Team;
 

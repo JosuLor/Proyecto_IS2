@@ -1,0 +1,33 @@
+
+Qorg.business_logic.BLFacadeImplementation#findEvent(Ldomain/Quote;)Ldomain/Event;e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÿ ÿ("startingBlock*¥
+startingBlocke
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÿ ÿ( †
+ù
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java◊ ◊(
+%0"
+__annotate*
+	WebMethod*
+
+qdomain.Quoteì
+ê
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÿ ÿ(
+qdomain.Quote"__annotation*
+
+%0*
+1*¯
+1e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaŸ Ÿ(å
+â
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java⁄ ⁄($
+evdomain.Event"__id*
+"""}
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java‹ ‹(
+
+evdomain.Event:
+qdomain.QuoteB-+
+)org.business_logic.BLFacadeImplementation

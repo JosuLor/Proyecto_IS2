@@ -1,9 +1,10 @@
 package gui;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 
 import com.toedter.calendar.JCalendar;
+
+import domain.Event;
 import domain.Question;
 import javax.swing.*;
 import java.awt.*;
@@ -13,6 +14,8 @@ import java.text.DateFormat;
 import java.util.*;
 
 import javax.swing.table.DefaultTableModel;
+
+import org.business_logic.BLFacade;
 
 
 public class FindQuestionsGUI extends JFrame {
@@ -95,7 +98,7 @@ public class FindQuestionsGUI extends JFrame {
 		jCalendar1.setBounds(new Rectangle(40, 50, 225, 150));
 
 		BLFacade facade = MainGUI.getBusinessLogic();
-		datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar1.getDate());
+		datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar1.getDate());
 		CreateQuestionGUI.paintDaysWithEvents(jCalendar1,datesWithEventsCurrentMonth);
 
 		// Code for JCalendar
@@ -133,7 +136,7 @@ public class FindQuestionsGUI extends JFrame {
 
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar1.getDate());
+						datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar1.getDate());
 					}
 
 
@@ -148,7 +151,7 @@ public class FindQuestionsGUI extends JFrame {
 
 						BLFacade facade=MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events=facade.getEvents(firstDay);
+						Vector<domain.Event> events=(Vector<Event>) facade.getEvents(firstDay);
 
 						if (events.isEmpty() ) jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")+ ": "+dateformat1.format(calendarAct.getTime()));
 						else jLabelEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events")+ ": "+dateformat1.format(calendarAct.getTime()));

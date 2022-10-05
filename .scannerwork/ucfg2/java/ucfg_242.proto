@@ -1,0 +1,48 @@
+
+jorg.business_logic.BLFacadeImplementation#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Registered;e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaå å("startingBlock*ô
+startingBlocke
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaå å(?´
+®
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaã ã(
+%0"
+__annotate*
+	WebMethod*
+
+usernamejava.lang.Stringû
+õ
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaå% å(-
+usernamejava.lang.String"__annotation*
+
+%0´
+®
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaã ã(
+%1"
+__annotate*
+	WebMethod*
+
+passwordjava.lang.Stringû
+õ
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaå6 å(>
+passwordjava.lang.String"__annotation*
+
+%1*
+1*Å
+1e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaç ç(ê
+ç
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaé é(:
+udomain.Registered"__id*
+"""Å
+e
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaê ê(
+
+udomain.Registered:
+usernamejava.lang.String:
+passwordjava.lang.StringB-+
+)org.business_logic.BLFacadeImplementation

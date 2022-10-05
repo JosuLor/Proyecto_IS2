@@ -1,0 +1,33 @@
+
+\org.business_logic.BLFacadeImplementation#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;c
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javar  r(."startingBlock*∏
+startingBlockc
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javar. r(9£
+†
+c
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javar r(
+%0"
+__annotate*
+	WebMethod*
+
+datejava.util.Dateñ
+ì
+c
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javar4 r(8
+datejava.util.Date"__annotation*
+
+%0*
+1*Å
+1c
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javas s(ë
+é
+c
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javat t(5
+datesjava.util.Vector"__id*
+"""Ç
+c
+YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javav v(
+
+datesjava.util.Vector:
+datejava.util.DateB-+
+)org.business_logic.BLFacadeImplementation

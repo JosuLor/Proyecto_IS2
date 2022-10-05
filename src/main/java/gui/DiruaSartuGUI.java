@@ -13,7 +13,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import domain.Registered;
 import java.awt.Color;
 
@@ -76,7 +77,7 @@ public class DiruaSartuGUI extends JFrame{
 					
 					if(zenb>0.0) {
 						
-						businessLogic.DiruaSartu(user, zenb, "DiruaSartu");
+						businessLogic.diruaSortu(user, zenb, "DiruaSartu");
 						lblError.setVisible(true); 
 						lblError.setText(ResourceBundle.getBundle("Etiquetas").getString("DiruCorrect"));
 						

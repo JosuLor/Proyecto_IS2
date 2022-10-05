@@ -17,7 +17,8 @@ import javax.swing.SwingConstants;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import domain.Registered;
 import javax.swing.JTextField;
 

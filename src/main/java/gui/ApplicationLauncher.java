@@ -8,8 +8,9 @@ import javax.swing.UIManager;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
-import businessLogic.BLFacade;
-import businessLogic.BLFacadeImplementation;
+import org.business_logic.BLFacade;
+import org.business_logic.BLFacadeImplementation;
+
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
 

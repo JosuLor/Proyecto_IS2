@@ -7,8 +7,9 @@ package gui;
 
 import javax.swing.*;
 
+import org.business_logic.BLFacade;
+
 import domain.Event;
-import businessLogic.BLFacade;
 
 import java.awt.Color;
 import java.awt.Font;

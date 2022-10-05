@@ -13,13 +13,15 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
 import domain.Team;
 import domain.TeamRenderer;
 import domain.Registered;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import javax.swing.event.ListSelectionListener;
+
+import org.business_logic.BLFacade;
+
 import javax.swing.event.ListSelectionEvent;
 
 public class TaldeaJarraituGUI extends JFrame{

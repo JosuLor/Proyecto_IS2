@@ -24,7 +24,6 @@ import javax.swing.JScrollPane;
 
 import com.toedter.calendar.JCalendar;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import domain.Question;
@@ -33,13 +32,15 @@ import domain.Registered;
 import exceptions.EventNotFinished;
 import javax.swing.SwingConstants;
 
+import org.business_logic.BLFacade;
+
 public class EmaitzakIpiniGUI extends JFrame{
 	private BLFacade businessLogic = MainGUI.getBusinessLogic();
 
 	private static final long serialVersionUID = 1L;
 
-	private JComboBox<Event> jComboBoxEvents = new JComboBox<Event>();
-	DefaultComboBoxModel<Event> modelEvents = new DefaultComboBoxModel<Event>();
+	private JComboBox<Event> jComboBoxEvents = new JComboBox<>();
+	DefaultComboBoxModel<Event> modelEvents = new DefaultComboBoxModel<>();
 	
 	private JLabel jLabelListOfEvents = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ListEvents"));
 	private JLabel jLabelEventDate = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("EventDate"));
@@ -50,16 +51,16 @@ public class EmaitzakIpiniGUI extends JFrame{
 	private JScrollPane scrollPaneEvents = new JScrollPane();
 	private JButton jButtonClose = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Close"));
 	
-	private Vector<Date> datesWithEventsCurrentMonth = new Vector<Date>();
+	private Vector<Date> datesWithEventsCurrentMonth = new Vector<>();
 	private final JLabel jLabelQuestion = new JLabel(); //$NON-NLS-1$ //$NON-NLS-2$
-	private final JComboBox<Question> jComboBoxQuestions = new JComboBox<Question>();
-	DefaultComboBoxModel<Question> modelQuestions = new DefaultComboBoxModel<Question>();
+	private final JComboBox<Question> jComboBoxQuestions = new JComboBox<>();
+	DefaultComboBoxModel<Question> modelQuestions = new DefaultComboBoxModel<>();
 	
 	private domain.Event event;
 	private final JLabel jLabelQuotes = new JLabel(); 
 
 	private JComboBox jComboBoxQuotes;
-	DefaultComboBoxModel<Quote> modelQuotes = new DefaultComboBoxModel<Quote>();
+	DefaultComboBoxModel<Quote> modelQuotes = new DefaultComboBoxModel<>();
 	
 	private Registered user; 
 	private final JButton jButtonEmaitzaIpini = new JButton(ResourceBundle.getBundle("Etiquetas").getString("EmaitzaIpini")); 
@@ -105,7 +106,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 		
 		
 		BLFacade facade = MainGUI.getBusinessLogic();
-		datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar.getDate());
+		datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar.getDate());
 		paintDaysWithEvents(jCalendar,datesWithEventsCurrentMonth);
 		
 		
@@ -234,7 +235,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 						
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						datesWithEventsCurrentMonth=facade.getEventsMonth(jCalendar.getDate());
+						datesWithEventsCurrentMonth=(Vector<Date>) facade.getEventsMonth(jCalendar.getDate());
 					}
 
 
@@ -247,7 +248,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						Vector<domain.Event> events = (Vector<Event>) facade.getEvents(firstDay);
 						
 						if (events.isEmpty()) {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")

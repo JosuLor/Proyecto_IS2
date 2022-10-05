@@ -1,0 +1,54 @@
+
+(domain.Sport#equals(Ljava/lang/Object;)ZF
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaK K("startingBlock*
+2F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaM
+ M("P
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaM M(
+""*é
+startingBlockF
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaK K( Ž
+‹
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaJ J(
+
+%3"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Objectw
+u
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaK K(
+ojava.lang.Object"__annotation*
+
+%3*
+2
+1*·
+1F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaO	 O(†
+ƒ
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaO	 O(
+%0java.lang.String"__id**
+domain.Sport"
+izena³°
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaO O(0
+%1java.lang.String")domain.Sport#getIzena()Ljava/lang/String;*
+
+ojava.lang.Object2
+getIzena()ØÕ
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaO	 O(1
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+
+%1java.lang.String2equals(Ljava/lang/Object;)"P
+F
+<C:/Users/loren/git/Bet22Lite/src/main/java/domain/Sport.javaO O(2
+"":
+ojava.lang.ObjectB
+domain.Sport
