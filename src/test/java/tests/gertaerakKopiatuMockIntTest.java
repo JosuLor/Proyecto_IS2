@@ -32,10 +32,6 @@ public class gertaerakKopiatuMockIntTest {
 	 * Se supone que en la fecha data ya hay un evento. No se puede copiar.
 	 */
 	public void Test1() {
-		
-		Mockito.doReturn(false).when(da).gertaerakKopiatu(
-				Mockito.any(Event.class), Mockito.any(Date.class));
-		
 		/*
 		 * Se puede observar que la fecha en la que se quiere copiar el evento coincide
 		 * con la fecha del evento dado. 'Mockeando' el método del DA, el resultado
@@ -49,6 +45,9 @@ public class gertaerakKopiatuMockIntTest {
 		Team t2 = new Team(teams[1]);
 		Event ev = new Event(description, evDate, t1, t2);
 		
+		Mockito.doReturn(false).when(da).gertaerakKopiatu(
+				ev, input);
+		
 		boolean res = sut.gertaerakKopiatu(ev, input);
 		
 		assertFalse(res);
@@ -59,10 +58,6 @@ public class gertaerakKopiatuMockIntTest {
 	 * Se supone que en la fecha data ya hay un evento. No se puede copiar.
 	 */
 	public void Test2() {
-		
-		Mockito.doReturn(true).when(da).gertaerakKopiatu(
-				Mockito.any(Event.class), Mockito.any(Date.class));
-		
 		/*
 		 * Se puede observar que la fecha en la que se quiere copiar el evento es distinta
 		 * a la fecha del evento dado. 'Mockeando' el método del DA, el resultado
@@ -75,6 +70,9 @@ public class gertaerakKopiatuMockIntTest {
 		Team t1 = new Team(teams[0]);
 		Team t2 = new Team(teams[1]);
 		Event ev = new Event(description, evDate, t1, t2);
+
+		Mockito.doReturn(true).when(da).gertaerakKopiatu(
+				ev, input);
 		
 		boolean res = sut.gertaerakKopiatu(ev, input);
 		
