@@ -7,7 +7,6 @@ import java.util.Date;
 
 import dataAccess.DataAccess;
 import domain.Event;
-import domain.Team;
 
 import org.junit.Test;
 
