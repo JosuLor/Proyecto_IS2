@@ -1,1 +1,1 @@
-domain.Event#getLokala()LTeam;
+domain.Event#getEventDate()Ljava/util/Date;

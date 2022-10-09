@@ -1,1 +1,1 @@
-domain.Question#<init>(Ljava/lang/Integer;Ljava/lang/String;DLEvent;)V
+gui.JarraituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

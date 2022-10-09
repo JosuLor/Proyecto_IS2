@@ -1,1 +1,1 @@
-domain.Registered#getTransakzioak()Ljava/util/Vector;
+org.business_logic.BLFacadeImplementation#findQuestionFromQuote(LQuote;)LQuestion;

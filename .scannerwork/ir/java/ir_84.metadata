@@ -1,2 +1,1 @@
-gui.JarraituGUI#instance-init#
-javax.swing.DefaultListModel#<init>()V
+domain.Jarraitzailea#getData()Ljava/util/Date;

@@ -1,89 +1,99 @@
 
-Dgui.MainUserGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java± ±(."3*Á
-2K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java≥, ≥(5äá
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java≥ ≥(+
-%1javax.swing.JRadioButton"javax.swing.JRadioButtonª
-∏
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java≥ ≥(6
-%2"4javax.swing.JRadioButton#<init>(Ljava/lang/String;)V* 
-
-%1javax.swing.JRadioButton*	
-Euskara¶
-£
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java≥ ≥(6,
-gui.MainUserGUI"
-rdbtnNewRadioButton_1"__id* 
-
-%1javax.swing.JRadioButton¶
-£
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java¥ ¥(
-%3javax.swing.JRadioButton"__id*.*,
-gui.MainUserGUI"
-rdbtnNewRadioButton_1{y
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java¥/ ¥(=
-%4gui.MainUserGUI$6"gui.MainUserGUI$6ç
+*gui.MainGUI#getPanel()Ljavax/swing/JPanel;H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java√ √("3*Á
+2H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java≈ ≈(zx
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java≈ ≈(
+%1javax.swing.JPanel"javax.swing.JPanelç
 ä
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java¥+ π(
-%5"java.lang.Object#<init>()V*
-
-%4gui.MainUserGUI$6ùö
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java¥ π(
-
-%6void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java≈ ≈(
+%2"javax.swing.JPanel#<init>()V*
+
+%1javax.swing.JPanelâ
+Ü
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java≈ ≈(
+gui.MainGUI"
+panel"__id*
+
+%1javax.swing.JPanelâ
+Ü
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java∆ ∆(
+%3javax.swing.JPanel"__id**
+gui.MainGUI"
+panel¿
+Ω
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java∆ ∆('
+%4javax.swing.JRadioButton"@gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;*
+gui.MainGUIÇˇ
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java∆ ∆((
+%5java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%3javax.swing.JPanel* 
 
-%3javax.swing.JRadioButton*
-
-%4gui.MainUserGUI$622addActionListener(Ljava/awt/event/ActionListener;)õ
-ò
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java∫ ∫(
-%7javax.swing.ButtonGroup"__id*$*"
-gui.MainUserGUI"
-buttonGroup¶
-£
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java∫ ∫((
-%8javax.swing.JRadioButton"__id*.*,
-gui.MainUserGUI"
-rdbtnNewRadioButton_1˛˚
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java∫ ∫()
-
-%9void":javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V*
-
-%7javax.swing.ButtonGroup* 
+%4javax.swing.JRadioButton2add(Ljava/awt/Component;)â
+Ü
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java« «(
+%6javax.swing.JPanel"__id**
+gui.MainGUI"
+panel¿
+Ω
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java« «('
+%7javax.swing.JRadioButton"@gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;*
+gui.MainGUIÇˇ
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java« «((
+%8java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%6javax.swing.JPanel* 
 
-%8javax.swing.JRadioButton2!add(Ljavax/swing/AbstractButton;)*
-1*Å
-3K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java≤ ≤(¶
-£
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.java≤ ≤(
-%0javax.swing.JRadioButton"__id*.*,
-gui.MainUserGUI"
-rdbtnNewRadioButton_1*
-2
-1*Ï
-1K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.javaº	 º(ß
-§
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.javaº	 º(
-%10javax.swing.JRadioButton"__id*.*,
-gui.MainUserGUI"
-rdbtnNewRadioButton_1"p
-K
-?C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainUserGUI.javaº º(!
+%7javax.swing.JRadioButton2add(Ljava/awt/Component;)â
+Ü
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java» »(
+%9javax.swing.JPanel"__id**
+gui.MainGUI"
+panelø
+º
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java» »(%
+%10javax.swing.JRadioButton">gui.MainGUI#getRdbtnNewRadioButton()Ljavax/swing/JRadioButton;*
+gui.MainGUIÑÅ
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java» »(&
+%11java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%9javax.swing.JPanel*!
 
-%10javax.swing.JRadioButtonB
-gui.MainUserGUI
+%10javax.swing.JRadioButton2add(Ljava/awt/Component;)*
+1*·
+3H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.javaƒ ƒ(â
+Ü
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.javaƒ ƒ(
+%0javax.swing.JPanel"__id**
+gui.MainGUI"
+panel*
+2
+1*√
+1H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java 	  (ä
+á
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java 	  (
+%12javax.swing.JPanel"__id**
+gui.MainGUI"
+panel"g
+H
+<C:/Users/Aleina/git/Bet22Lite/src/main/java/gui/MainGUI.java   (
+
+%12javax.swing.JPanelB
+gui.MainGUI

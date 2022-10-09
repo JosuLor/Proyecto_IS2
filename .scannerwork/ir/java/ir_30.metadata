@@ -1,4 +1,4 @@
-dataAccess.DataAccess#ApustuaIrabazi(LApustuAnitza;)V
+dataAccess.DataAccess#ApustuaIrabazi(Ldomain/ApustuAnitza;)V
 null
 java.util.Date#<init>()V
 java.util.Date#instance-init#

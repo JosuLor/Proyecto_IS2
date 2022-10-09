@@ -1,1 +1,2 @@
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+gui.MainUserGUI#<init>()V
+gui.MainUserGUI#initialize()V

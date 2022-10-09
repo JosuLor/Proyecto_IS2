@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#findEvent(Ldomain/Quote;)Ldomain/Event;
+org.business_logic.BLFacadeImplementation#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;

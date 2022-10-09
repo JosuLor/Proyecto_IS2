@@ -1,33 +1,16 @@
 
-_org.business_logic.BLFacadeImplementation#findTransakzioak(Ldomain/Registered;)Ljava/util/List;e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÍ Í(-"startingBlock*æ
-startingBlocke
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÍ- Í(;•
-¢
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÈ È(
-%0"
-__annotate*
-	WebMethod*
+)domain.Quote#getQuote()Ljava/lang/Double;G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.java9 9("1*ª
+1G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.java:	 :(á
+Ñ
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.java:	 :(
+%0java.lang.Double"__id**
+domain.Quote"
+balio"c
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.java: :(
 
-udomain.Registeredò
-ï
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÍ9 Í(:
-udomain.Registered"__annotation*
-
-%0*
-1*˙
-1e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÎ Î(ç
-ä
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÏ Ï(9
-ljava.util.List"__id*
-"""~
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÓ Ó(
-
-ljava.util.List:
-udomain.RegisteredB-+
-)org.business_logic.BLFacadeImplementation
+%0java.lang.DoubleB
+domain.Quote

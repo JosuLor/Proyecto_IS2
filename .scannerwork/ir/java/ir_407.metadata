@@ -1,3 +1,2 @@
-gui.MainUserGUI#instance-init#
-javax.swing.ButtonGroup#instance-init#
-javax.swing.ButtonGroup#<init>()V
+tests.gertaerakSortuDAWTest#test5()V
+configuration.UtilDate#newDate(III)Ljava/util/Date;

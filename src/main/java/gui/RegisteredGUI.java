@@ -28,18 +28,18 @@ import domain.Registered;
 
 
 public class RegisteredGUI extends JFrame {
-	
+
 	private static final long serialVersionUID = 1L;
 
 	private JPanel jContentPane = null;
 	private JButton jButtonQueryQueries = null;
 
-    private static BLFacade appFacadeInterface;
-	
+	private static BLFacade appFacadeInterface;
+
 	public static BLFacade getBusinessLogic(){
 		return appFacadeInterface;
 	}
-	 
+
 	public static void setBussinessLogic (BLFacade afi){
 		appFacadeInterface=afi;
 	}
@@ -54,7 +54,7 @@ public class RegisteredGUI extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnRank;
 	private JButton btnDestacados;
-	
+
 	/**
 	 * This is the default constructor
 	 */
@@ -66,9 +66,7 @@ public class RegisteredGUI extends JFrame {
 			@Override
 			public void windowClosing(WindowEvent e) {
 				try {
-					//if (ConfigXML.getInstance().isBusinessLogicLocal()) facade.close();
 				} catch (Exception e1) {
-					// TODO Auto-generated catch block
 					System.out.println("Error: "+e1.toString()+" , probably problems with Business Logic or Database");
 				}
 				System.exit(1);
@@ -76,10 +74,9 @@ public class RegisteredGUI extends JFrame {
 		});
 
 		initialize();
-		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	
-	
+
+
 
 	/**
 	 * This method initializes this
@@ -115,7 +112,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jContentPane;
 	}
-	
+
 	/**
 	 * This method initializes boton2
 	 * 
@@ -140,7 +137,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jButtonQueryQueries;
 	}
-	
+
 
 	private JLabel getLblNewLabel() {
 		if (jLabelSelectOption == null) {
@@ -154,10 +151,10 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jLabelSelectOption;
 	}
-	
-	
-	
-	
+
+
+
+
 	private JButton getJButtonDiruaSartu() {
 		if (jButtonDiruaSartu == null) {
 			jButtonDiruaSartu = new JButton();
@@ -241,9 +238,9 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jButtonDesLogin;
 	}
-	
 
-	
+
+
 	private JButton getBtnRank() {
 		if (btnRank == null) {
 			btnRank = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Ranking")); //$NON-NLS-1$ //$NON-NLS-2$

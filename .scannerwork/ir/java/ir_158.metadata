@@ -1,1 +1,1 @@
-domain.ApustuAnitza#galdutaMarkatu()Z
+domain.ApustuAnitza#getApustuak()Ljava/util/Vector;

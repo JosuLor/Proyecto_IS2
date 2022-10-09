@@ -1,1 +1,1 @@
-domain.Team#addEvent(LEvent;)V
+domain.Team#addEvent(Ldomain/Event;)V

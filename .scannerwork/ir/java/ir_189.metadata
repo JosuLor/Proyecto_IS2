@@ -1,3 +1,2 @@
-gui.MugimenduakBistaratuGUI#instance-init#
-javax.swing.DefaultListModel#instance-init#
-javax.swing.DefaultListModel#<init>()V
+domain.Event#DoesQuestionExists(Ljava/lang/String;)Z
+java.lang.String#compareTo(Ljava/lang/String;)I

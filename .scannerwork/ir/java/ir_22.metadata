@@ -1,1 +1,1 @@
-dataAccess.DataAccess#findQuestion(LEvent;)Ljava/util/Collection;
+dataAccess.DataAccess#findQuestion(Ldomain/Event;)Ljava/util/Collection;

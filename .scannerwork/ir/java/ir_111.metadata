@@ -1,1 +1,2 @@
-gui.RegisteredGUI#instance-init#
+domain.Question#doesQuoteExist(Ljava/lang/String;)Z
+java.lang.String#compareTo(Ljava/lang/String;)I

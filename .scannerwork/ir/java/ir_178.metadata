@@ -1,1 +1,1 @@
-domain.Event#toString()Ljava/lang/String;
+domain.Event#getEventNumber()Ljava/lang/Integer;

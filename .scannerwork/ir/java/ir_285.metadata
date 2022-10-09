@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;
+org.business_logic.BLFacadeImplementation#initializeBD()V

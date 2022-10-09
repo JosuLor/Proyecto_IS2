@@ -1,9 +1,33 @@
 
-domain.Registered#isAdmin()ZM
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÎ Î("1*«
-1M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÏ	 Ï("W
-M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÏ Ï(
-""B
-domain.Registered
+`org.business_logic.BLFacadeImplementation#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java÷ ÷(!"startingBlock*Á
+startingBlockf
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java÷! ÷(/¦
+£
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaö ö(
+%0"
+__annotate*
+	WebMethod*
+
+udomain.Registered™
+–
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java÷- ÷(.
+udomain.Registered"__annotation*
+
+%0*
+1*Š
+1f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaø ø(”
+‘
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaù ù(1
+diruajava.lang.String"__id*
+"""…
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaû û(
+
+diruajava.lang.String:
+udomain.RegisteredB-+
+)org.business_logic.BLFacadeImplementation

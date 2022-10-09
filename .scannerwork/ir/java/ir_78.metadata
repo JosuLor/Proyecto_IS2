@@ -1,1 +1,1 @@
-domain.Jarraitzailea#setNori(LRegistered;)V
+domain.Jarraitzailea#getJarraitzaileaNumber()Ljava/lang/Integer;

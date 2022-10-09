@@ -12,5 +12,7 @@ java.util.Vector#instance-init#
 com.toedter.calendar.JCalendar#<init>()V
 javax.swing.JLabel#instance-init#
 java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+javax.swing.JComboBox#instance-init#
+javax.swing.DefaultComboBoxModel#instance-init#
 javax.swing.JComboBox#<init>()V
 javax.swing.JButton#instance-init#

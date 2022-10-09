@@ -1,1 +1,5 @@
-org.business_logic.BLFacadeImplementation#initializeBD()V
+tests.gertaerakKopiatuMockIntTest#Test2()V
+null
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.util.Date#<init>(III)V
+java.util.Date#instance-init#

@@ -1,27 +1,17 @@
 
-Jorg.business_logic.BLFacadeImplementation#gertaeraEzabatu(Ldomain/Event;)Ze
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java÷ ÷(""startingBlock*¶
-startingBlocke
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java÷" ÷(,¡
-ž
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaö ö(
-%0"
-__annotate*
-	WebMethod*
-
-evdomain.Event”
-‘
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java÷) ÷(+
-evdomain.Event"__annotation*
-
-%0*
-1*Û
-1e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaø ø("o
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaû û(
-"":
-evdomain.EventB-+
-)org.business_logic.BLFacadeImplementation
+,domain.Quote#getForecast()Ljava/lang/String;G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaA A("1*¾
+1G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaB	 B(Š
+‡
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaB	 B(
+%0java.lang.String"__id**
+domain.Quote"
+
+forecast"c
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaB B(
+
+%0java.lang.StringB
+domain.Quote

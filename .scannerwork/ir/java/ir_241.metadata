@@ -1,1 +1,2 @@
-domain.Quote#getForecast()Ljava/lang/String;
+domain.Quote#instance-init#
+java.util.Vector#<init>()V

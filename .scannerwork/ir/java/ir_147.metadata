@@ -1,1 +1,2 @@
-domain.ApustuAnitza#setApustuAnitzaNumber(Ljava/lang/Integer;)V
+domain.ApustuAnitza#instance-init#
+java.util.Vector#<init>()V

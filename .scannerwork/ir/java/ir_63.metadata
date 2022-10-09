@@ -1,1 +1,3 @@
-domain.IntegerAdapter#instance-init#
+tests.gertaerakKopiatuDAWTest#instance-init#
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>()V

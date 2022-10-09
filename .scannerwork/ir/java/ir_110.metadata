@@ -1,1 +1,2 @@
-gui.KuotakIpiniGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+domain.Question#toString()Ljava/lang/String;
+java.lang.Double#toString(D)Ljava/lang/String;

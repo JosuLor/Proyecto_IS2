@@ -1,1 +1,1 @@
-gui.TaldeaJarraituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+domain.Jarraitzailea#setNori(LRegistered;)V

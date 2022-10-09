@@ -1,1 +1,1 @@
-domain.Quote#addApustua(LApustua;)V
+domain.Quote#setQuote(Ljava/lang/Double;)V

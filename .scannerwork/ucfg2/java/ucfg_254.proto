@@ -1,15 +1,16 @@
 
-Horg.business_logic.BLFacadeImplementation#rankingLortu()Ljava/util/List;e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaà à(%"1*Å
-1e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaâ â(ê
-ç
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaä ä(3
-rankjava.util.List"__id*
-"""Å
-e
-YC:/Users/loren/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaå å(
-
-rankjava.util.ListB-+
-)org.business_logic.BLFacadeImplementation
+0domain.Quote#getQuoteNumber()Ljava/lang/Integer;G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaI I("1*√
+1G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaJ	 J(é
+ã
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaJ	 J(
+%0java.lang.Integer"__id*!*
+domain.Quote"
+quoteNumber"d
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Quote.javaJ J(
+
+%0java.lang.IntegerB
+domain.Quote

@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#EmaitzakIpini(Ldomain/Quote;)V
+org.business_logic.BLFacadeImplementation#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V

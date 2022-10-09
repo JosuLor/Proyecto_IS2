@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#findEventFromApustua(LApustua;)Ldomain/Event;
+org.business_logic.BLFacadeImplementation#getEventsAll()Ljava/util/List;

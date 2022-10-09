@@ -1,0 +1,70 @@
+
+*domain.Apustua#equals(Ljava/lang/Object;)ZI
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.javaY Y("startingBlock*£
+2I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java[- [(2"S
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java[& [(3
+""*Ç
+3I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java[ [(	³°
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java[ [(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.Apustua2
+getClass()¸µ
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java[ [($
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+ojava.lang.Object2
+getClass()*
+2
+1*ò
+startingBlockI
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.javaY Y( ‘
+Ž
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.javaX X(
+
+%5"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Objectz
+x
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.javaY Y(
+ojava.lang.Object"__annotation*
+
+%5*
+3
+4*£
+4I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.javaZ Z("S
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.javaZ Z(
+""*™
+1I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java]	 ](ÅÂ
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java]	 ]( 
+%2java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
+domain.Apustua2getApostuaNumber()ÊÇ
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java]( ](G
+%3java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
+
+ojava.lang.Object2getApostuaNumber()ÞÛ
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java]	 ](H
+%4boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.Integer*
+
+%3java.lang.Integer2equals(Ljava/lang/Object;)"S
+I
+?C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Apustua.java] ](I
+"":
+ojava.lang.ObjectB
+domain.Apustua

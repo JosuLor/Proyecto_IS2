@@ -1,2 +1,1 @@
-domain.Question#instance-init#
-java.util.Vector#<init>()V
+gui.TaldeaJarraituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

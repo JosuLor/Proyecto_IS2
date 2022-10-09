@@ -1,7 +1,7 @@
 organization=jan22-23
 projectKey=Proyecto1_bets
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.32993
+serverVersion=8.0.0.33148
 dashboardUrl=https://sonarcloud.io/dashboard?id=Proyecto1_bets
-ceTaskId=AYOksgyl-1fd7I15vY0H
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYOksgyl-1fd7I15vY0H
+ceTaskId=AYO8S3Rj8zhUOmrRmhCl
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYO8S3Rj8zhUOmrRmhCl

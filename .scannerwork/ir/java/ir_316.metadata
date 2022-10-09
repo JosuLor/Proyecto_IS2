@@ -1,1 +1,1 @@
-domain.Registered#setDirukop(Ljava/lang/Double;)V
+org.business_logic.BLFacadeImplementation#findSport(LEvent;)LSport;

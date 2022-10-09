@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.Vector;
 
 import org.junit.Test;
+import org.mockito.internal.matchers.Any;
 
 import dataAccess.DataAccess;
 import domain.Event;
@@ -44,7 +45,7 @@ public class gertaerakKopiatuDABTest {
 	 */
 	public void Test2() {
 		try {
-			ev = null;
+			ev = new Event(1, "Hola-Prueba", new Date(2022, 11, 11), new Team("Hola"), new Team("Prueba"));
 			date = new Date(2022, 13, 19);
 
 			// 1. Dado un formato no válido de fecha, el programa no debe de continuar. (CE 4)
@@ -63,16 +64,16 @@ public class gertaerakKopiatuDABTest {
 	 */
 	public void Test3() {
 		// 1. Se establece la fecha de input en la que no existe el evento dado.
-		Date date = new Date(2023, 11, 14);
+		Date date = new Date(2023, 12, 12);
 
-		Date eventDate = new Date(2022, 12, 28);
-		String description="Girona-Leganes";
+		Date eventDate = new Date(2022, 11, 17);
+		String description="Atletico-Athletic";
 		String teams[] = description.split("-");
 		Team t1 = new Team(teams[0]);
 		Team t2 = new Team(teams[1]);
 		
 		// 2. Se crea un evento igual a uno ya existente en la base de datos.
-		ev = new Event(18, description, eventDate, t1, t2);
+		ev = new Event(1, description, eventDate, t1, t2);
 
 		sut.open(false);
 		boolean devuelto = sut.gertaerakKopiatu(ev, date);
@@ -105,14 +106,14 @@ public class gertaerakKopiatuDABTest {
 	 */
 	public void Test4() {
 		// 1. Se establece la fecha de input en la que no existe el evento dado.
-		Date date = new Date(2023, 11, 11);
+		Date date = new Date(2022, 11, 17);
 		String description="Atletico-Athletic";
 		String teams[] = description.split("-");
 		Team t1 = new Team(teams[0]);
 		Team t2 = new Team(teams[1]);
 		
 		// 2. Se crea un evento igual a uno ya existente en la base de datos.
-		ev = new Event(21, description, date, t1, t2);
+		ev = new Event(1, description, date, t1, t2);
 		
 		// 3. Según el funcionamiento del método, no se puede hacer una copia de un evento el mismo día. Debe devolver False.
 		sut.open(false);

@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/Vector;
+gui.EmaitzakIpiniGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

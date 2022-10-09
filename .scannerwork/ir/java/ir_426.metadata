@@ -1,1 +1,1 @@
-configuration.ConfigXML#isBusinessLogicLocal()Z
+gui.MainUserGUI#getBusinessLogic()LBLFacade;

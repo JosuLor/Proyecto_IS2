@@ -87,10 +87,9 @@ public class Apustua implements Serializable{
 	
 	@Override
 	public boolean equals(Object o) {
-		Apustua a = (Apustua) o; 
-		if(a==null) {
-			return false;
-		}
-		return this.getApostuaNumber().equals(a.getApostuaNumber()); 
+		if(o==null) return false;
+		if(this.getClass() != o.getClass()) return false;
+		
+		return this.getApostuaNumber().equals(((Apustua)o).getApostuaNumber()); 
 	}
 }

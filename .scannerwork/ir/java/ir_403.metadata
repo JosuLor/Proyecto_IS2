@@ -1,1 +1,2 @@
-domain.Apustua#setApustuAnitza(LApustuAnitza;)V
+tests.gertaerakSortuDAWTest#test1()V
+configuration.UtilDate#newDate(III)Ljava/util/Date;

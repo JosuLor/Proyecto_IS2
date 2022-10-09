@@ -1,16 +1,33 @@
 
-5domain.Registered#getBankAccount()Ljava/lang/Integer;M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÇ Ç("1*Ú
-1M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÈ	 È(™
+Zorg.business_logic.BLFacadeImplementation#findApustua(Ldomain/Registered;)Ljava/util/List;f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÍ Í($"startingBlock*Á
+startingBlockf
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÍ$ Í(2¦
+£
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÌ Ì(
+%0"
+__annotate*
+	WebMethod*
+
+udomain.Registered™
 –
-M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÈ	 È(
-%0java.lang.Integer"__id*&*$
-domain.Registered"
-bankAccount"j
-M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.javaÈ È(
-
-%0java.lang.IntegerB
-domain.Registered
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÍ0 Í(1
+udomain.Registered"__annotation*
+
+%0*
+1*ý
+1f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÎ Î(Ž
+‹
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÏ Ï(0
+ajava.util.List"__id*
+"""
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.javaÑ Ñ(
+
+ajava.util.List:
+udomain.RegisteredB-+
+)org.business_logic.BLFacadeImplementation

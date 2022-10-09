@@ -1,1 +1,1 @@
-domain.Event#getSport()Ldomain/Sport;
+domain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;Ldomain/Team;Ldomain/Team;)V

@@ -1,89 +1,67 @@
 
-@gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java¨ ¨(."3*›
-2G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.javaª, ª(5†ƒ
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.javaª ª(+
-%1javax.swing.JRadioButton"javax.swing.JRadioButton·
-´
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.javaª ª(6
-%2"4javax.swing.JRadioButton#<init>(Ljava/lang/String;)V* 
-
-%1javax.swing.JRadioButton*	
-Euskara
-›
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.javaª ª(6(
-gui.MainGUI"
-rdbtnNewRadioButton_1"__id* 
-
-%1javax.swing.JRadioButton
-›
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java« «(
-%3javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_1om
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java«/ «(=
-%4gui.MainGUI$5"gui.MainGUI$5…
-‚
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java«+ °(
-%5"java.lang.Object#<init>()V*
-
-%4gui.MainGUI$5•’
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java« °(
-
-%6void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
-
-%3javax.swing.JRadioButton*
-
-%4gui.MainGUI$522addActionListener(Ljava/awt/event/ActionListener;)“
+/domain.Transaction#toString()Ljava/lang/String;M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaI I("1*«
+1M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ	 J(
+
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ J(
+%0java.util.Date"__id* *
+domain.Transaction"
+data˜
+•
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ	 J(
+%1java.lang.String"__concat*
+
+Data: *
+
+%0java.util.Date
+š
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ	 J(+
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	, dirua: “
 
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java± ±(
-%7javax.swing.ButtonGroup"__id* *
-gui.MainGUI"
-buttonGroup
-›
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java± ±((
-%8javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_1ú÷
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java± ±()
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ. J(8
+%3java.lang.Double"__id*!*
+domain.Transaction"
+dirua¨
+¥
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ	 J(8
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Doubleœ
+™
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ	 J(E
+%5java.lang.String"__concat*
+
+%4java.lang.String*
 
-%9void":javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V*
-
-%7javax.swing.ButtonGroup* 
-
-%8javax.swing.JRadioButton2!add(Ljavax/swing/AbstractButton;)*
-1*õ
-3G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java© ©(
-›
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java© ©(
-%0javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_1*
-2
-1*Ü
-1G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java³	 ³(Ÿ
-œ
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java³	 ³(
-%10javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_1"l
-G
-;C:/Users/loren/git/Bet22Lite/src/main/java/gui/MainGUI.java³ ³(!
-
-%10javax.swing.JRadioButtonB
-gui.MainGUI
+, mota: ’
+
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJH J(Q
+%6java.lang.String"__id* *
+domain.Transaction"
+mota¨
+¥
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ	 J(Q
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String"i
+M
+CC:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Transaction.javaJ J(R
+
+%7java.lang.StringB
+domain.Transaction

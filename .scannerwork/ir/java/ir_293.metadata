@@ -1,1 +1,3 @@
-org.business_logic.BLFacadeImplementation#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Z
+org.business_logic.BLFacadeImplementation#diruaSortu(Ldomain/Registered;Ljava/lang/Double;Ljava/lang/String;)V
+java.util.Date#<init>()V
+java.util.Date#instance-init#

@@ -711,8 +711,8 @@ public class DataAccess  {
 
 	public Registered isLogin(String username, String password) {
 		Registered u = db.find(Registered.class, username);
-		if(u!=null) {
-			if(u.getPassword().equals(password)) return u;
+		if(u!=null && u.getPassword().equals(password)) {
+			return u;
 		}
 		return null;
 	}
@@ -1050,7 +1050,12 @@ public class DataAccess  {
 	}
 
 
-
+/**
+ * Se copia un evento existente en una fecha dada
+ * @param e el evento a copiar.
+ * @param date la fecha (distinta a la del evento 'e') en la que se copia el evento 'e'.
+ * @return devuelve true si se ha copiado con éxito el evento 'e' en la fecha 'date'.
+ */
 	public boolean gertaerakKopiatu(Event e, Date date) {
 		Boolean b=false;
 		Event gertaera = db.find(Event.class, e.getEventNumber());

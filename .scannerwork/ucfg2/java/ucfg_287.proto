@@ -1,16 +1,27 @@
 
-1domain.Registered#getUsername()Ljava/lang/String;M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.java· ·("1*Ô
-1M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.java¸	 ¸(”
-‘
-M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.java¸	 ¸(
-%0java.lang.String"__id*"* 
-domain.Registered"	
-usrname"i
-M
-AC:/Users/loren/git/Bet22Lite/src/main/java/domain/Registered.java¸ ¸(
-
-%0java.lang.StringB
-domain.Registered
+Iorg.business_logic.BLFacadeImplementation#isRegister(Ljava/lang/String;)Zf
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java” ”("startingBlock*Í
+startingBlockf
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java” ”(.¬
+©
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java“ “(
+%0"
+__annotate*
+	WebMethod*
+
+usernamejava.lang.StringŸ
+œ
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java”% ”(-
+usernamejava.lang.String"__annotation*
+
+%0*
+1*Ý
+1f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java• •("p
+f
+ZC:/Users/Aleina/git/Bet22Lite/src/main/java/org/business_logic/BLFacadeImplementation.java˜ ˜(
+"":
+usernamejava.lang.StringB-+
+)org.business_logic.BLFacadeImplementation

@@ -1,1 +1,1 @@
-domain.Registered#setTransakzioak(Ljava/util/Vector;)V
+org.business_logic.BLFacadeImplementation#findEventFromApustua(Ldomain/Apustua;)LEvent;

@@ -1,1 +1,1 @@
-domain.Transaction#getDirua()Ljava/lang/Double;
+domain.Registered#setPassword(Ljava/lang/String;)V

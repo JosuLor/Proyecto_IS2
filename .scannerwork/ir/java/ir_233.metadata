@@ -1,2 +1,1 @@
-domain.Quote#instance-init#
-java.util.Vector#<init>()V
+domain.Sport#getEvents()Ljava/util/Vector;

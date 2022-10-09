@@ -34,13 +34,13 @@ public class Quote implements Serializable{
 	public Quote() {
 		super();
 	}
-	
+
 	public Quote(Double balio, String forecast, Question question) {
 		this.balio = balio; 
 		this.forecast = forecast; 
 		this.question=question;
 	}
-	
+
 	public Quote(Double balio, String forecast) {
 		this.balio = balio; 
 		this.forecast = forecast; 
@@ -53,7 +53,7 @@ public class Quote implements Serializable{
 	public void setApustuak(Vector<Apustua> apustuak) {
 		this.apustuak = apustuak;
 	}
-	
+
 	public Double getQuote() {
 		return balio;
 	}
@@ -85,15 +85,15 @@ public class Quote implements Serializable{
 	public void setQuestion(Question question) {
 		this.question = question;
 	}
-	
+
 	public String toString(){
 		return "Forecast: "+forecast+"; Quote: "+Double.toString(balio);
 	}
-	
+
 	public void addApustua(Apustua a) {
 		this.apustuak.add(a);
 	}
-	
+
 	public void removeApustua(Apustua a) {
 		boolean aurkitua = false; 
 		int i = 0; 
@@ -105,16 +105,16 @@ public class Quote implements Serializable{
 			i++; 
 		}
 	}
-	
+
 	@Override
 	public boolean equals(Object o) {
-		if(o != null) {
-			Quote q = (Quote)o;
-			return this.getQuoteNumber()==q.getQuoteNumber();
-		} else {
+		if (o == null)
 			return false;
-		}
+
+		if (this.getClass() != o.getClass())
+			return false;
+
+		return this.getQuoteNumber()==((Quote)o).getQuoteNumber();
 	}
-	
-	
+
 }

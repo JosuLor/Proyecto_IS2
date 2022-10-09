@@ -1,130 +1,92 @@
 
-6gui.AdminGUI#getJButtonDesLogin()Ljavax/swing/JButton;H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÌ Ì(#"3*ò
-2H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÔ! Ô(/Ï
-È
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÔ! Ô(F
-%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
-java.util.ResourceBundle*
-	Etiquetas˛˚
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÔ! Ô(\
-%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
-
-%1java.util.ResourceBundle*
-
-DesLogin2getString(Ljava/lang/String;)|z
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÔ Ô( 
-%3javax.swing.JButton"javax.swing.JButtonª
-∏
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÔ Ô(]
-%4"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
-
-%3javax.swing.JButton*
-
-%2java.lang.Stringï
-í
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÔ Ô(]#
-gui.AdminGUI"
-jButtonDesLogin"__id*
-
-%3javax.swing.JButtonï
-í
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java (
-%5javax.swing.JButton"__id*%*#
-gui.AdminGUI"
-jButtonDesLoginp
-n
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java! (,
-%6java.awt.Color"__id*
-""ËÂ
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java (-
-
-%7void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
-
-%5javax.swing.JButton*
-
-%6java.awt.Color2setForeground(Ljava/awt/Color;)ï
-í
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÒ Ò(
-%8javax.swing.JButton"__id*%*#
-gui.AdminGUI"
-jButtonDesLoginp
-n
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÒ! Ò(0
-%9java.awt.Color"__id*
-""ÈÊ
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÒ Ò(1
-%10void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
-
-%8javax.swing.JButton*
-
-%9java.awt.Color2setBackground(Ljava/awt/Color;)ñ
-ì
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÚ Ú(
-%11javax.swing.JButton"__id*%*#
-gui.AdminGUI"
-jButtonDesLoginsq
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÚ) Ú(7
-%12gui.AdminGUI$8"gui.AdminGUI$8â
-Ü
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÚ% ¯(
-%13"java.lang.Object#<init>()V*
+(domain.Event#equals(Ljava/lang/Object;)ZI
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaö ö("startingBlock*£
+2I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java£
+ £("S
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java£ £(
+""*å
+3I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java° °(Ü
+É
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java° °(
+otherdomain.Event"__id*
+
+objjava.lang.Objectê
+ç
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java¢ ¢(
+%2java.lang.Integer"__id*!*
+domain.Event"
+eventNumberó
+î
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java¢ ¢(&
+%3java.lang.Integer"__id*(*&
 
-%12gui.AdminGUI$8ïí
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÚ ¯(
-%14void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
-
-%11javax.swing.JButton*
-
-%12gui.AdminGUI$822addActionListener(Ljava/awt/event/ActionListener;)ñ
-ì
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java˘ ˘(
-%15javax.swing.JButton"__id*%*#
-gui.AdminGUI"
-jButtonDesLogin…∆
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java˘ ˘(/
-%16void"#java.awt.Component#setBounds(IIII)V*
-
-%15javax.swing.JButton*2Ã*2–*2ã*22setBounds(IIII)*
-1*Ì
-3H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÓ Ó(ï
-í
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaÓ Ó(
-%0javax.swing.JButton"__id*%*#
-gui.AdminGUI"
-jButtonDesLogin*
+otherdomain.Event"
+eventNumber*
 2
-1*–
-1H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java˚	 ˚(ñ
-ì
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java˚	 ˚(
-%17javax.swing.JButton"__id*%*#
-gui.AdminGUI"
-jButtonDesLogin"h
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java˚ ˚(
-
-%17javax.swing.JButtonB
-gui.AdminGUI
+1*˘
+startingBlockI
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaö ö("ì
+ê
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaô ô(
+
+%4"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object|
+z
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaö ö(!
+objjava.lang.Object"__annotation*
+
+%4*	
+5
+6
+8*£
+4I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java†
+ †("S
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java† †(
+""*«
+5I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaü ü(±Æ
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaü ü(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.Event2
+getClass()∫∑
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaü ü("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+3
+4*£
+6I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaû
+ û("S
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaû û(
+""*£
+8I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaú
+ ú("S
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaú ú(
+""*£
+1I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java§	 §("S
+I
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.java§ §(
+"":
+objjava.lang.ObjectB
+domain.Event

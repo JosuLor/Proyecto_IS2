@@ -1,1 +1,1 @@
-dataAccess.DataAccess#existQuestion(LEvent;Ljava/lang/String;)Z
+dataAccess.DataAccess#existQuestion(Ldomain/Event;Ljava/lang/String;)Z

@@ -1,16 +1,161 @@
 
-0domain.ApustuAnitza#getUser()Ldomain/Registered;M
-CC:/Users/loren/git/Bet22Lite/src/main/java/domain/ApustuAnitza.java0 0("1*’
-1M
-CC:/Users/loren/git/Bet22Lite/src/main/java/domain/ApustuAnitza.java1	 1(î
+Ggui.RegisteredGUI#getJButtonMugimenduakBistaratu()Ljavax/swing/JButton;N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java– –(/"3*∫ 
+2N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java“- “(;Ú
+Ô
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java“- “(R
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetasêç
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java“- “(t
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+MugimenduakBistaratu2getString(Ljava/lang/String;)ÉÄ
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java“% “(,
+%3javax.swing.JButton"javax.swing.JButton¡
+æ
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java“! “(u
+%4"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JButton*
+
+%2java.lang.String¨
+©
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java“ “(u4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu"__id*
+
+%3javax.swing.JButton¨
+©
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java” ”(
+%5javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuk
+i
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java”: ”(D	
+%6int"__id*
+""vt
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java”+ ”(/
+%7java.awt.Font"java.awt.Fontº
+π
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java”' ”(I
+%8"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%7java.awt.Font*
+
+Tahoma*
+	
+%6int*2ﬂ‹
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java” ”(J
+
+%9void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
+
+%5javax.swing.JButton*
+
+%7java.awt.Font2setFont(Ljava/awt/Font;)≠
+™
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘ ‘(
+%10javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuw
+u
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘- ‘(7
+%11java.awt.Color"__id*
+""ÒÓ
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘ ‘(8
+%12void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
+
+%10javax.swing.JButton*
+
+%11java.awt.Color2setBackground(Ljava/awt/Color;)≠
+™
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java’ ’(
+%13javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuw
+u
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java’- ’(<
+%14java.awt.Color"__id*
+""ÒÓ
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java’ ’(=
+%15void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+
+%13javax.swing.JButton*
+
+%14java.awt.Color2setForeground(Ljava/awt/Color;)≠
+™
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷ ÷(
+%16javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuÑÅ
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷5 ÷(C
+%17gui.RegisteredGUI$6"gui.RegisteredGUI$6î
 ë
-M
-CC:/Users/loren/git/Bet22Lite/src/main/java/domain/ApustuAnitza.java1	 1(
-%0domain.Registered"__id*!*
-domain.ApustuAnitza"
-user"j
-M
-CC:/Users/loren/git/Bet22Lite/src/main/java/domain/ApustuAnitza.java1 1(
-
-%0domain.RegisteredB
-domain.ApustuAnitza
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷1 €(
+%18"java.lang.Object#<init>()V*
+
+%17gui.RegisteredGUI$6†ù
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷ €(
+%19void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%16javax.swing.JButton*
+
+%17gui.RegisteredGUI$622addActionListener(Ljava/awt/event/ActionListener;)≠
+™
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java‹ ‹(
+%20javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuŒÀ
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java‹ ‹(:
+%21void"#java.awt.Component#setBounds(IIII)V*
+
+%20javax.swing.JButton*2
+*2Æ*2ö*2D2setBounds(IIII)*
+1*ä
+3N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java— —(!¨
+©
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.java— —(!
+%0javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu*
+2
+1*Û
+1N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.javaﬁ	 ﬁ($≠
+™
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.javaﬁ	 ﬁ($
+%22javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu"n
+N
+BC:/Users/Aleina/git/Bet22Lite/src/main/java/gui/RegisteredGUI.javaﬁ ﬁ(%
+
+%22javax.swing.JButtonB
+gui.RegisteredGUI

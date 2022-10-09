@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#rankingLortu()Ljava/util/List;
+org.business_logic.BLFacadeImplementation#findQuestion(LEvent;)Ljava/util/Collection;

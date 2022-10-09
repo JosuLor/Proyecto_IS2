@@ -1,1 +1,4 @@
-org.business_logic.BLFacadeImplementation#storeQuote(Ljava/lang/String;Ljava/lang/Double;LQuestion;)V
+org.business_logic.BLFacadeImplementation#<init>()V
+null
+java.lang.String#equals(Ljava/lang/Object;)Z
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;

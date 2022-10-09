@@ -1,2 +1,2 @@
-domain.Apustua#equals(Ljava/lang/Object;)Z
-java.lang.Integer#equals(Ljava/lang/Object;)Z
+tests.gertaerakSortuDAWTest#test4()V
+configuration.UtilDate#newDate(III)Ljava/util/Date;

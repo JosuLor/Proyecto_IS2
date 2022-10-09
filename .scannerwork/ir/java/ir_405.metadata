@@ -1,1 +1,2 @@
-domain.Apustua#eguneratuApustuKant(LSport;)V
+tests.gertaerakSortuDAWTest#test3()V
+configuration.UtilDate#newDate(III)Ljava/util/Date;

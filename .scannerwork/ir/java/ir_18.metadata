@@ -1,1 +1,1 @@
-dataAccess.DataAccess#findEvent(LQuote;)LEvent;
+dataAccess.DataAccess#findEvent(Ldomain/Quote;)Ldomain/Event;

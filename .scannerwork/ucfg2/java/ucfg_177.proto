@@ -1,142 +1,16 @@
 
--gui.AdminGUI#getBoton2()Ljavax/swing/JButton;H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaˆ ˆ("3*„
-2H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŠ Š(%|z
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŠ Š(#
-%1javax.swing.JButton"javax.swing.JButton
-Œ
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŠ Š(%
-%2"javax.swing.JButton#<init>()V*
-
-%1javax.swing.JButton˜
-•
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŠ Š(%&
-gui.AdminGUI"
-jButtonCreateQuery"__id*
-
-%1javax.swing.JButton˜
-•
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java‹ ‹(
-%3javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQueryp
-n
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java‹$ ‹(3
-%4java.awt.Color"__id*
-""èå
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java‹ ‹(4
-
-%5void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
-
-%3javax.swing.JButton*
-
-%4java.awt.Color2setForeground(Ljava/awt/Color;)˜
-•
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŒ Œ(
-%6javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQueryp
-n
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŒ$ Œ(.
-%7java.awt.Color"__id*
-""èå
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŒ Œ(/
-
-%8void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
-
-%6javax.swing.JButton*
-
-%7java.awt.Color2setBackground(Ljava/awt/Color;)˜
-•
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java (
-%9javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQueryÆÃ
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java (0
-%10void"#java.awt.Component#setBounds(IIII)V*
-
-%9javax.swing.JButton*2
-*2T*2Õ*22setBounds(IIII)™
-–
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŽ Ž(
-%11javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQueryí
-ê
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŽ Ž(C
-%12java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
-java.util.ResourceBundle*
-	Etiquetasƒ€
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŽ Ž(\
-%13java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
-
-%12java.util.ResourceBundle*
-CreateQuery2getString(Ljava/lang/String;)éæ
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.javaŽ Ž(]
-%14void"7javax.swing.AbstractButton#setText(Ljava/lang/String;)V*
-
-%11javax.swing.JButton*
-
-%13java.lang.String2setText(Ljava/lang/String;)™
-–
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java (
-%15javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQuerysq
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java, (I
-%16gui.AdminGUI$3"gui.AdminGUI$3‰
-†
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java( ”(
-%17"java.lang.Object#<init>()V*
-
-%16gui.AdminGUI$3•’
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java ”(
-%18void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
-
-%15javax.swing.JButton*
-
-%16gui.AdminGUI$322addActionListener(Ljava/awt/event/ActionListener;)*
-1*ð
-3H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java‰ ‰(˜
-•
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java‰ ‰(
-%0javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQuery*
-2
-1*Ó
-1H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java–	 –(™
-–
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java–	 –(
-%19javax.swing.JButton"__id*(*&
-gui.AdminGUI"
-jButtonCreateQuery"h
-H
-<C:/Users/loren/git/Bet22Lite/src/main/java/gui/AdminGUI.java– –(
-
-%19javax.swing.JButtonB
-gui.AdminGUI
+%domain.Event#getSport()Ldomain/Sport;G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaU U("1*³
+1G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaV	 V(ƒ
+€
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaV	 V(
+%0domain.Sport"__id**
+domain.Event"
+sport"_
+G
+=C:/Users/Aleina/git/Bet22Lite/src/main/java/domain/Event.javaV V(
+
+%0domain.SportB
+domain.Event

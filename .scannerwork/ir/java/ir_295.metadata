@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#popularrenaLortu()Ldomain/Sport;
+org.business_logic.BLFacadeImplementation#findApustua(Ldomain/Registered;)Ljava/util/List;

@@ -1,18 +1,41 @@
 
-Fdomain.IntegerAdapter#unmarshal(Ljava/lang/String;)Ljava/lang/Integer;O
-EC:/Users/loren/git/Bet22Lite/src/main/java/domain/IntegerAdapter.java ("1*÷
-1O
-EC:/Users/loren/git/Bet22Lite/src/main/java/domain/IntegerAdapter.java (À
-½
-O
-EC:/Users/loren/git/Bet22Lite/src/main/java/domain/IntegerAdapter.java ("	
-%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-sjava.lang.String"^
-O
-EC:/Users/loren/git/Bet22Lite/src/main/java/domain/IntegerAdapter.java (#
-	
-%0int:
-sjava.lang.StringB
-domain.IntegerAdapter
+4dataAccess.DataAccess#getEventsAll()Ljava/util/List;R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java– –( "1*‰
+
+1R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(§
+¤
+R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbìé
+R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(R"
+%1javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%0javax.persistence.EntityManager*
+SELECT ev FROM Event ev *
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)ª
+§
+R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(S%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%1javax.persistence.TypedQueryåâ
+R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java˜ ˜(,
+%2java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()
+Œ
+R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java˜ ˜(-
+eventsjava.util.List"__id*
+
+%2java.util.List"p
+R
+FC:/Users/Aleina/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java™ ™(
+
+eventsjava.util.ListB
+dataAccess.DataAccess

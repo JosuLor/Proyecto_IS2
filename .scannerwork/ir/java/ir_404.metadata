@@ -1,1 +1,2 @@
-domain.Apustua#galdutaMarkatu(LQuote;)Z
+tests.gertaerakSortuDAWTest#test2()V
+configuration.UtilDate#newDate(III)Ljava/util/Date;

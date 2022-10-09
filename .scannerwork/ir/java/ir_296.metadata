@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#ezJarraituTaldea(Ldomain/Registered;)V
+org.business_logic.BLFacadeImplementation#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;

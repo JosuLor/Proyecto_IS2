@@ -1,1 +1,1 @@
-org.business_logic.BLFacadeImplementation#getAllTeams()Ljava/util/List;
+org.business_logic.BLFacadeImplementation#apustuaEzabatu(Ldomain/Registered;LApustuAnitza;)V

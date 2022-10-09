@@ -1,1 +1,3 @@
-domain.ApustuAnitza#setData(Ljava/util/Date;)V
+domain.ApustuAnitza#<init>(LRegistered;Ljava/lang/Double;)V
+java.util.Date#<init>()V
+java.util.Date#instance-init#
