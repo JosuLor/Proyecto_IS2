@@ -8,7 +8,8 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.ListCellRenderer;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import gui.MainGUI;
 
 public class TeamRenderer extends JLabel implements ListCellRenderer<Team>{

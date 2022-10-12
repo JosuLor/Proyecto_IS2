@@ -24,6 +24,7 @@ import domain.ApustuAnitza;
 import domain.Apustua;
 
 import domain.Event;
+import domain.EventParam;
 import domain.Jarraitzailea;
 
 import domain.Question;
@@ -594,10 +595,11 @@ public class DataAccess  {
 			
 			db.getTransaction().commit();
 			
-			this.DiruaSartu(reg1, 50.0, new Date(), "DiruaSartu");
-			this.DiruaSartu(reg2, 50.0, new Date(), "DiruaSartu");
-			this.DiruaSartu(reg3, 50.0, new Date(), "DiruaSartu");
-			this.DiruaSartu(reg4, 50.0, new Date(), "DiruaSartu");
+			final String diruaSartu = "DiruaSartu";
+			this.DiruaSartu(reg1, 50.0, new Date(), diruaSartu);
+			this.DiruaSartu(reg2, 50.0, new Date(), diruaSartu);
+			this.DiruaSartu(reg3, 50.0, new Date(), diruaSartu);
+			this.DiruaSartu(reg4, 50.0, new Date(), diruaSartu);
 			
 			System.out.println("Db initialized");
 		}
@@ -728,32 +730,52 @@ public void open(boolean initializeMode){
 		db.getTransaction().commit();
 	}
 	
-	public boolean gertaerakSortu(String description,Date eventDate, String sport) {
-		boolean b = true;
+	/*
+	 * Crear eventos con los parametros dados. 
+	 * Sólamente si no existe el evento, el evento se creará, devolviendo true. De lo contrario, devolverá false.
+	 * 
+	 * @param description los equipos o jugadores que van a jugar en el evento
+	 * @param eventDate la fecha en que se va a celebrar el evento
+	 * @param sport el deporte del evento
+	 * @return devuelve true si el evento se ha podido crear; devuelve false si el evento no se ha podido crear
+	 * 
+	 */
+	public boolean gertaerakSortu(EventParam params) {
 		db.getTransaction().begin();
-		Sport spo =db.find(Sport.class, sport);
+		Sport spo =db.find(Sport.class, params.sport);
 		if(spo!=null) {
-			TypedQuery<Event> Equery = db.createQuery("SELECT e FROM Event e WHERE e.getEventDate() =?1 ",Event.class);
-			Equery.setParameter(1, eventDate);
-			for(Event ev: Equery.getResultList()) {
-				if(ev.getDescription().equals(description)) {
-					b = false;
-				}
+			if(gertaerakSortuAuxiliar_LookForDuplicatedEvents(params.eventDate, params.description)) {
+				gertaerakSortuAuxiliar(params.description, params.eventDate, spo);
+				
+				db.getTransaction().commit();
+				return true;
+			} else {
+				db.getTransaction().commit();
+				return false;
 			}
-			if(b) {
-				String[] taldeak = description.split("-");
-				Team lokala = new Team(taldeak[0]);
-				Team kanpokoa = new Team(taldeak[1]);
-				Event e = new Event(description, eventDate, lokala, kanpokoa);
-				e.setSport(spo);
-				spo.addEvent(e);
-				db.persist(e);
-			}
-		}else {
-			return false;
 		}
 		db.getTransaction().commit();
-		return b;
+		return false;
+	}
+	
+	private boolean gertaerakSortuAuxiliar_LookForDuplicatedEvents(Date eventDate, String description) {
+		TypedQuery<Event> Equery = db.createQuery("SELECT e FROM Event e WHERE e.getEventDate() =?1 ",Event.class);
+		Equery.setParameter(1, eventDate);
+		for(Event ev: Equery.getResultList())
+			if(ev.getDescription().equals(description))
+				return false;
+		
+		return true;
+	}
+	
+	private void gertaerakSortuAuxiliar(String description, Date eventDate, Sport spo) {
+		String[] taldeak = description.split("-");
+		Team lokala = new Team(taldeak[0]);
+		Team kanpokoa = new Team(taldeak[1]);
+		Event e = new Event(description, eventDate, lokala, kanpokoa);
+		e.setSport(spo);
+		spo.addEvent(e);
+		db.persist(e);
 	}
 	
 	public Quote storeQuote(String forecast, Double Quote, Question question) throws QuoteAlreadyExist {
@@ -1022,7 +1044,10 @@ public void open(boolean initializeMode){
 		return reg.getDirukop().toString();
 	}
 	
-	
+	/**
+	 * Muestra en una lista los usuarios registrados de la aplicación ordenados de mayor a menor según el atributo "irabazitakoa"
+	 * @return una lista con los usuarios registrados ordenados en base a lo qua han ganado
+	 */
 	public List<Registered> rankingLortu(){
 		TypedQuery<Registered> Rquery = db.createQuery("SELECT r FROM Registered r", Registered.class);
 		List<Registered> listR = Rquery.getResultList();

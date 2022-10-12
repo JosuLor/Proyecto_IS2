@@ -24,7 +24,6 @@ import javax.swing.JScrollPane;
 
 import com.toedter.calendar.JCalendar;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import domain.Question;
@@ -32,6 +31,8 @@ import domain.Quote;
 import domain.Registered;
 import exceptions.EventNotFinished;
 import javax.swing.SwingConstants;
+
+import org.business_logic.BLFacade;
 
 public class EmaitzakIpiniGUI extends JFrame{
 	private BLFacade businessLogic = MainGUI.getBusinessLogic();

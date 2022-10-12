@@ -14,7 +14,8 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import domain.ApustuAnitza;
 import domain.Registered;
 

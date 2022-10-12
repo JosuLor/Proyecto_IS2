@@ -1,4 +1,4 @@
-package businessLogic;
+package org.business_logic;
 
 import java.util.Collection;
 import java.util.Date;
@@ -11,6 +11,7 @@ import javax.jws.WebService;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
+import domain.EventParam;
 //import domain.Booking;
 import domain.Question;
 import domain.Quote;
@@ -70,7 +71,7 @@ public interface BLFacade  {
 	@WebMethod public boolean isRegister(String username); 
 	@WebMethod public void storeRegistered(String username, String password, Integer bankAccount);
 	
-	@WebMethod public boolean gertaerakSortu(String description,Date eventDate, String sport) throws EventFinished;
+	@WebMethod public boolean gertaerakSortu(EventParam params);
 	
 	@WebMethod public void storeQuote(String forecast, Double quote, Question question) throws QuoteAlreadyExist;
 	

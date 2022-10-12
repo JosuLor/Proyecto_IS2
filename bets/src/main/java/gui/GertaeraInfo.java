@@ -22,7 +22,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import javax.swing.event.ListSelectionListener;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
 
 import javax.swing.event.ListSelectionEvent;
 

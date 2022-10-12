@@ -1,4 +1,4 @@
-package businessLogic;
+package org.business_logic;
 import java.util.Collection;
 //hola
 import java.util.Date;
@@ -14,6 +14,7 @@ import dataAccess.DataAccess;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
+import domain.EventParam;
 import domain.Question;
 import domain.Quote;
 import domain.Registered;
@@ -158,12 +159,9 @@ public class BLFacadeImplementation  implements BLFacade {
     	dbManager.close();
     }
     @WebMethod	
-    public boolean gertaerakSortu(String description,Date eventDate, String sport) throws EventFinished{
-    	if(new Date().compareTo(eventDate)>0)
-			throw new EventFinished("Gertaera honen data dagoeneko pasa da");
-    	
+    public boolean gertaerakSortu(EventParam params) {
     	dbManager.open(false);
-    	boolean b = dbManager.gertaerakSortu(description, eventDate, sport);
+    	boolean b = dbManager.gertaerakSortu(params);
     	dbManager.close();
     	return b;
     }

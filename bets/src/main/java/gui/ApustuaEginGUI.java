@@ -26,9 +26,10 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
+import org.business_logic.BLFacade;
+
 import com.toedter.calendar.JCalendar;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import domain.Question;

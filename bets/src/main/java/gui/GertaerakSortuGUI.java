@@ -24,11 +24,13 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
+import org.business_logic.BLFacade;
+
 import com.toedter.calendar.JCalendar;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
+import domain.EventParam;
 import exceptions.EventFinished;
 
 public class GertaerakSortuGUI extends JFrame{
@@ -142,17 +144,12 @@ public class GertaerakSortuGUI extends JFrame{
 					if(txtSport.getText().trim().isBlank()==false) {
 						String description = txtDescription.getText();
 						String sport =txtSport.getText();
-						try {
-							if(businessLogic.gertaerakSortu(description, firstDay, sport)==false) {
-								descriptionLabel.setVisible(true);
-								descriptionLabel.setText(ResourceBundle.getBundle("Etiquetas").getString("GertaeraSorError"));
-							}else {
-								descriptionLabel.setVisible(true);
-								descriptionLabel.setText(ResourceBundle.getBundle("Etiquetas").getString("GertaeraSorCorrect"));
-							}
-						} catch (EventFinished e1) {
+						if(businessLogic.gertaerakSortu(new EventParam(description, firstDay, sport))==false) {
 							descriptionLabel.setVisible(true);
-							descriptionLabel.setText(e1.getMessage());
+							descriptionLabel.setText(ResourceBundle.getBundle("Etiquetas").getString("GertaeraSorError"));
+						}else {
+							descriptionLabel.setVisible(true);
+							descriptionLabel.setText(ResourceBundle.getBundle("Etiquetas").getString("GertaeraSorCorrect"));
 						}
 					}else {
 						descriptionLabel.setVisible(true);

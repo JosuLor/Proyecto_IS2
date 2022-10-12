@@ -24,11 +24,12 @@ import javax.swing.JScrollPane;
 
 import com.toedter.calendar.JCalendar;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Apustua;
 import domain.Event;
 import javax.swing.SwingConstants;
+
+import org.business_logic.BLFacade;
 
 public class GertaeraEzabatuGUI extends JFrame{
 

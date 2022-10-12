@@ -5,6 +5,8 @@ import java.util.*;
 
 import javax.swing.*;
 
+import org.business_logic.BLFacade;
+
 import com.toedter.calendar.JCalendar;
 
 import java.awt.*;
@@ -12,7 +14,6 @@ import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import exceptions.EventFinished;

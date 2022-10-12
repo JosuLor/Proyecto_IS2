@@ -13,7 +13,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
+import org.business_logic.BLFacade;
+
 import domain.Registered;
 import java.awt.Color;
 

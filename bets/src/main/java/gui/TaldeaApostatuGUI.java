@@ -15,7 +15,6 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.SwingConstants;
 
-import businessLogic.BLFacade;
 import domain.Event;
 import domain.Question;
 import domain.Quote;
@@ -24,6 +23,9 @@ import domain.Registered;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import javax.swing.event.ListSelectionListener;
+
+import org.business_logic.BLFacade;
+
 import javax.swing.event.ListSelectionEvent;
 import java.awt.Font;
 
