@@ -9,6 +9,7 @@ import org.junit.Test;
 import org.mockito.internal.matchers.Any;
 
 import dataAccess.DataAccess;
+import dataAccess.GertaerakKopiatuParameter;
 import domain.Event;
 import domain.Team;
 
@@ -29,7 +30,7 @@ public class gertaerakKopiatuDABTest {
 
 			// 1. Dado un parámetro nulo, el programa no debe de continuar. (CE 2)
 			sut.open(false);
-			sut.gertaerakKopiatu(ev, date);
+			sut.gertaerakKopiatu(new GertaerakKopiatuParameter(ev, date));
 			sut.close();
 			fail("Null pointer exception expected.");
 		} catch (Exception e) {
@@ -50,7 +51,7 @@ public class gertaerakKopiatuDABTest {
 
 			// 1. Dado un formato no válido de fecha, el programa no debe de continuar. (CE 4)
 			sut.open(false);
-			sut.gertaerakKopiatu(ev, date);
+			sut.gertaerakKopiatu(new GertaerakKopiatuParameter(ev, date));
 			sut.close();
 			fail("Incorrect date format, program should've stopped.");
 		} catch (Exception e) {
@@ -76,7 +77,7 @@ public class gertaerakKopiatuDABTest {
 		ev = new Event(1, description, eventDate, t1, t2);
 
 		sut.open(false);
-		boolean devuelto = sut.gertaerakKopiatu(ev, date);
+		boolean devuelto = sut.gertaerakKopiatu(new GertaerakKopiatuParameter(ev, date));
 		sut.close();
 		
 		// 3. Según el funcionamiento del método, se debe crear una copia del evento. Debe devolver True.
@@ -117,7 +118,7 @@ public class gertaerakKopiatuDABTest {
 		
 		// 3. Según el funcionamiento del método, no se puede hacer una copia de un evento el mismo día. Debe devolver False.
 		sut.open(false);
-		boolean devuelto = sut.gertaerakKopiatu(ev, date);
+		boolean devuelto = sut.gertaerakKopiatu(new GertaerakKopiatuParameter(ev, date));
 		sut.close();
 		
 		assertFalse(devuelto);

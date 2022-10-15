@@ -11,6 +11,7 @@ import javax.jws.WebService;
 
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
+import dataAccess.GertaerakKopiatuParameter;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
@@ -278,7 +279,7 @@ public class BLFacadeImplementation  implements BLFacade {
 	@WebMethod
 	public boolean gertaerakKopiatu(Event e, Date date) {
 		dbManager.open(false);
-		Boolean b=dbManager.gertaerakKopiatu(e, date);
+		Boolean b=dbManager.gertaerakKopiatu(new GertaerakKopiatuParameter(e, date));
 		dbManager.close();
 		return b;
 	}

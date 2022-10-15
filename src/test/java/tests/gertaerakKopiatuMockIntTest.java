@@ -13,6 +13,7 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import dataAccess.DataAccess;
+import dataAccess.GertaerakKopiatuParameter;
 import domain.Event;
 import domain.Team;
 
@@ -43,7 +44,7 @@ public class gertaerakKopiatuMockIntTest {
 		Event ev = new Event(description, evDate, t1, t2);
 		
 		Mockito.doReturn(false).when(da).gertaerakKopiatu(
-				ev, input);
+				new GertaerakKopiatuParameter(ev, input));
 		
 		boolean res = sut.gertaerakKopiatu(ev, input);
 		
@@ -69,7 +70,7 @@ public class gertaerakKopiatuMockIntTest {
 		Event ev = new Event(description, evDate, t1, t2);
 
 		Mockito.doReturn(true).when(da).gertaerakKopiatu(
-				ev, input);
+				new GertaerakKopiatuParameter(ev, input));
 		
 		boolean res = sut.gertaerakKopiatu(ev, input);
 		
