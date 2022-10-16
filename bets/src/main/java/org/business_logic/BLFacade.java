@@ -8,6 +8,7 @@ import java.util.Vector;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
+import dataAccess.GertaerakKopiatuParameter;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
@@ -109,7 +110,7 @@ public interface BLFacade  {
 	@WebMethod public List<Event> getEventsAll();
 	
 	
-	@WebMethod public boolean gertaerakKopiatu(Event e, Date date);
+	@WebMethod public boolean gertaerakKopiatu(GertaerakKopiatuParameter params);
 	
 	@WebMethod public boolean jarraitu(Registered jabea, Registered jarraitua, Double limit);
 	

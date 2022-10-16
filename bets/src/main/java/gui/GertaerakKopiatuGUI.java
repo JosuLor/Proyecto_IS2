@@ -21,6 +21,7 @@ import javax.swing.event.ListSelectionListener;
 
 import org.business_logic.BLFacade;
 
+import dataAccess.GertaerakKopiatuParameter;
 import domain.Event;
 import exceptions.EventFinished;
 
@@ -150,7 +151,7 @@ public class GertaerakKopiatuGUI extends JFrame{
 						lblError.setVisible(false);
 						java.util.Date date =newDate(Integer.parseInt(txtYear.getText()),Integer.parseInt(txtMonth.getText())-1,Integer.parseInt(txtDay.getText()));	
 						if(date.compareTo(new Date())>=0) {
-							b = businessLogic.gertaerakKopiatu((Event)list.getSelectedValue(), date);
+							b = businessLogic.gertaerakKopiatu(new GertaerakKopiatuParameter((Event)list.getSelectedValue(), date));
 						}else if(date.compareTo(new Date())<0){
 							lblError.setVisible(true);
 							lblError.setText(ResourceBundle.getBundle("Etiquetas").getString("GertaeraKopiatuError"));

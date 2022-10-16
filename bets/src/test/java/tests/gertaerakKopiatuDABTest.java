@@ -8,6 +8,7 @@ import java.util.Vector;
 import org.junit.Test;
 
 import dataAccess.DataAccess;
+import dataAccess.GertaerakKopiatuParameter;
 import domain.Event;
 import domain.Team;
 
@@ -19,16 +20,16 @@ public class gertaerakKopiatuDABTest {
 
 	@Test
 	/*
-	 * Algún parámetro es nulo.
+	 * Algï¿½n parï¿½metro es nulo.
 	 */
 	public void Test1() {
 		try {
 			ev = null;
 			date = new Date(2022, 11, 19);
 
-			// 1. Dado un parámetro nulo, el programa no debe de continuar. (CE 2)
-			sut.open(false);
-			sut.gertaerakKopiatu(ev, date);
+			// 1. Dado un parï¿½metro nulo, el programa no debe de continuar. (CE 2)
+			sut.open(true);
+			sut.gertaerakKopiatu(new GertaerakKopiatuParameter(ev, date));
 			sut.close();
 			fail("Null pointer exception expected.");
 		} catch (Exception e) {
@@ -40,16 +41,16 @@ public class gertaerakKopiatuDABTest {
 
 	@Test
 	/*
-	 * Formato Date no válido.
+	 * Formato Date no vï¿½lido.
 	 */
 	public void Test2() {
 		try {
 			ev = null;
 			date = new Date(2022, 13, 19);
 
-			// 1. Dado un formato no válido de fecha, el programa no debe de continuar. (CE 4)
-			sut.open(false);
-			sut.gertaerakKopiatu(ev, date);
+			// 1. Dado un formato no vï¿½lido de fecha, el programa no debe de continuar. (CE 4)
+			sut.open(true);
+			sut.gertaerakKopiatu(new GertaerakKopiatuParameter(ev, date));
 			sut.close();
 			fail("Incorrect date format, program should've stopped.");
 		} catch (Exception e) {
@@ -73,21 +74,21 @@ public class gertaerakKopiatuDABTest {
 		
 		// 2. Se crea un evento igual a uno ya existente en la base de datos.
 		ev = new Event(18, description, eventDate, t1, t2);
+		
+		GertaerakKopiatuParameter params = new GertaerakKopiatuParameter(ev, date);
 
-		sut.open(false);
-		boolean devuelto = sut.gertaerakKopiatu(ev, date);
+		sut.open(true);
+		boolean devuelto = sut.gertaerakKopiatu(params);
 		sut.close();
 		
-		// 3. Según el funcionamiento del método, se debe crear una copia del evento. Debe devolver True.
+		// 3. Segï¿½n el funcionamiento del mï¿½todo, se debe crear una copia del evento. Debe devolver True.
 		assertTrue(devuelto);
 		
-		sut.open(false);
+		sut.open(true);
 		boolean deleted = false;
 		Vector<Event> eventsOfDate = sut.getEvents(date);
 		for(Event ev: eventsOfDate) {
 			String evDesc = ev.getDescription();
-			System.out.println(evDesc);
-			System.out.println(description);
 			if(evDesc.equals(ev.getDescription())) {
 				deleted = sut.gertaeraEzabatu(ev);
 				break;
@@ -114,20 +115,20 @@ public class gertaerakKopiatuDABTest {
 		// 2. Se crea un evento igual a uno ya existente en la base de datos.
 		ev = new Event(21, description, date, t1, t2);
 		
-		// 3. Según el funcionamiento del método, no se puede hacer una copia de un evento el mismo día. Debe devolver False.
-		sut.open(false);
-		boolean devuelto = sut.gertaerakKopiatu(ev, date);
+		GertaerakKopiatuParameter params = new GertaerakKopiatuParameter(ev, date);
+		
+		// 3. Segï¿½n el funcionamiento del mï¿½todo, no se puede hacer una copia de un evento el mismo dï¿½a. Debe devolver False.
+		sut.open(true);
+		boolean devuelto = sut.gertaerakKopiatu(params);
 		sut.close();
 		
 		assertFalse(devuelto);
 		
-		sut.open(false);
+		sut.open(true);
 		boolean deleted = false;
 		Vector<Event> eventsOfDate = sut.getEvents(date);
 		for(Event ev: eventsOfDate) {
 			String evDesc = ev.getDescription();
-			System.out.println(evDesc);
-			System.out.println(description);
 			if(evDesc.equals(ev.getDescription())) {
 				deleted = sut.gertaeraEzabatu(ev);
 				break;
