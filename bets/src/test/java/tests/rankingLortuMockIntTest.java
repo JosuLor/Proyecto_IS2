@@ -22,7 +22,7 @@ import domain.Registered;
 
 @RunWith(MockitoJUnitRunner.class)
 
-class rankingLortuMockIntTest {
+public class rankingLortuMockIntTest {
 
 	@Mock
 	DataAccess da = Mockito.mock(DataAccess.class);
@@ -31,7 +31,7 @@ class rankingLortuMockIntTest {
 	BLFacade sut = new BLFacadeImplementation(da);
 
 	@Test
-	void Test1() {
+	public void Test1() {
 
 		Mockito.doReturn(new ArrayList<Registered>()).when(da).rankingLortu();
 
@@ -43,7 +43,7 @@ class rankingLortuMockIntTest {
 	}
 
 	@Test
-	void Test2() {
+	public void Test2() {
 		ArrayList<Registered> elem = new ArrayList<Registered>();
 		elem.add(new Registered("UserTest", "123", 0));
 
@@ -61,7 +61,7 @@ class rankingLortuMockIntTest {
 	}
 	
 	@Test
-	void Test3() {
+	public void Test3() {
 
 		Registered r1 = new Registered("UserTest1", "123", 0);
 		Registered r2 = new Registered("UserTest2", "321", 0);
@@ -80,7 +80,7 @@ class rankingLortuMockIntTest {
 	
 	
 	@Test
-	void Test4() {
+	public void Test4() {
 		Registered r1 = new Registered("UserTest1", "123", 0);
 		Registered r2 = new Registered("UserTest2", "321", 0);
 		r2.setIrabazitakoa(2.00);

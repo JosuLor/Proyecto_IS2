@@ -14,7 +14,7 @@ import org.junit.Test;
 import dataAccess.DataAccess;
 import domain.Registered;
 
-class rankingLortuDAWTest {
+public class rankingLortuDAWTest {
 	DataAccess sut = new DataAccess();
 	
 	TestDataAccess tda = new TestDataAccess();
@@ -47,7 +47,7 @@ class rankingLortuDAWTest {
 	}
 	
 	@Test
-	void test0() { //Lista vacia pk no se mete en el for
+	public void test0() { //Lista vacia pk no se mete en el for
 		try {			
 			sut.open(false);
 			List<Registered> list = sut.rankingLortu();
@@ -63,7 +63,7 @@ class rankingLortuDAWTest {
 	
 	
 	@Test
-	void test1() {
+	public void test1() {
 		try {
 			Registered r1 = new Registered("UserTest", "123", 0);
 			List<Registered> expected = new ArrayList<Registered>();	
@@ -85,7 +85,7 @@ class rankingLortuDAWTest {
 	}
 	
 	@Test
-	void test2() {
+	public void test2() {
 		try {
 			
 			Registered r1 = new Registered("UserTest1", "123", 0);
@@ -123,7 +123,7 @@ class rankingLortuDAWTest {
 	
 	
 	@Test
-	void test3() {
+	public void test3() {
 		try {
 			
 			Registered r1 = new Registered("UserTest1", "123", 0);
