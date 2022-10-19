@@ -500,7 +500,7 @@ Proyecto1_bets,net.bytebuddy.implementation,FieldAccessor.ForSetter.OfFieldValue
 Proyecto1_bets,net.bytebuddy.implementation,MethodDelegation.ImplementationDelegate.ForStaticMethod,77,0,10,0,10,0,11,0,6,0
 Proyecto1_bets,net.bytebuddy.implementation,MethodCall.ArgumentLoader.ForField,141,0,18,0,14,0,13,0,4,0
 Proyecto1_bets,net.bytebuddy.implementation,MethodCall.ArgumentLoader.ForMethodCall.ArgumentProvider,61,0,8,0,6,0,8,0,4,0
-Proyecto1_bets,org.business_logic,BLFacadeImplementation,524,53,5,1,148,17,38,3,35,3
+Proyecto1_bets,org.business_logic,BLFacadeImplementation,540,37,5,1,152,13,39,2,36,2
 Proyecto1_bets,org.business_logic,BusinessLogicServer.new ActionListener() {...},14,0,0,0,4,0,2,0,2,0
 Proyecto1_bets,org.business_logic,BusinessLogicServer.new WindowAdapter() {...},9,0,0,0,3,0,2,0,2,0
 Proyecto1_bets,org.business_logic,BusinessLogicServer,233,0,4,0,48,0,4,0,2,0
@@ -1015,13 +1015,13 @@ Proyecto1_bets,domain,Apustua,77,3,6,0,27,2,15,1,12,1
 Proyecto1_bets,domain,IntegerAdapter,14,0,2,0,4,0,4,0,3,0
 Proyecto1_bets,domain,Transaction,73,0,0,0,24,0,13,0,13,0
 Proyecto1_bets,domain,Sport,61,14,2,0,20,5,11,2,10,2
-Proyecto1_bets,domain,Question,135,17,4,0,36,6,17,3,15,3
+Proyecto1_bets,domain,Question,138,14,4,0,37,5,18,2,16,2
 Proyecto1_bets,domain,Quote,132,11,10,0,38,4,20,2,15,2
 Proyecto1_bets,domain,Jarraitzailea,45,0,0,0,19,0,10,0,10,0
 Proyecto1_bets,domain,EventParam,0,12,0,0,0,5,0,1,0,1
 Proyecto1_bets,domain,Team,39,29,0,0,15,7,9,2,9,2
 Proyecto1_bets,domain,Registered,147,82,1,1,50,26,30,8,29,8
-Proyecto1_bets,domain,Event,113,83,12,0,38,24,19,10,13,10
+Proyecto1_bets,domain,Event,139,57,12,0,46,16,21,8,15,8
 Proyecto1_bets,domain,TeamRenderer,70,0,2,0,16,0,3,0,2,0
 Proyecto1_bets,domain,ApustuAnitza,190,8,12,0,53,3,27,1,21,1
 Proyecto1_bets,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner,42,14,12,0,8,2,7,1,1,1
@@ -1191,9 +1191,9 @@ Proyecto1_bets,org.objenesis.instantiator.util,ClassDefinitionUtils,114,0,2,0,19
 Proyecto1_bets,org.objenesis.instantiator.util,DefineClassHelper.Java8,81,0,4,0,16,0,5,0,3,0
 Proyecto1_bets,org.objenesis.instantiator.util,ClassUtils,32,0,0,0,8,0,4,0,4,0
 Proyecto1_bets,dataAccess,ObjectdbManagerServer,192,0,2,0,43,0,3,0,2,0
-Proyecto1_bets,dataAccess,DataAccess,3325,484,74,32,718,111,76,28,37,14
+Proyecto1_bets,dataAccess,DataAccess,3450,359,81,25,746,83,83,21,40,11
 Proyecto1_bets,dataAccess,ObjectdbManagerServer.new ActionListener() {...},48,0,0,0,12,0,2,0,2,0
-Proyecto1_bets,dataAccess,GertaerakKopiatuParameter,0,9,0,0,0,4,0,1,0,1
+Proyecto1_bets,dataAccess,GertaerakKopiatuParameter,9,0,0,0,4,0,1,0,1,0
 Proyecto1_bets,javax.transaction.xa,XAException,13,0,0,0,7,0,3,0,3,0
 Proyecto1_bets,net.bytebuddy.description.method,ParameterList.ForLoadedExecutable.Dispatcher.ForLegacyVm,31,0,0,0,5,0,4,0,4,0
 Proyecto1_bets,net.bytebuddy.description.method,MethodDescription.Latent,110,0,2,0,35,0,13,0,12,0
@@ -2407,7 +2407,7 @@ Proyecto1_bets,net.bytebuddy.jar.asm,ModuleVisitor,102,0,20,0,32,0,20,0,10,0
 Proyecto1_bets,net.bytebuddy.jar.asm,MethodVisitor,491,0,106,0,126,0,87,0,34,0
 Proyecto1_bets,net.bytebuddy.jar.asm,ClassWriter,1271,0,142,0,293,0,104,0,33,0
 Proyecto1_bets,net.bytebuddy.jar.asm,Type,1111,0,181,0,255,0,146,0,37,0
-Proyecto1_bets,net.bytebuddy.jar.asm,ByteVector,260,459,33,21,51,96,24,18,3,12
+Proyecto1_bets,net.bytebuddy.jar.asm,ByteVector,263,456,34,20,52,95,25,17,3,12
 Proyecto1_bets,net.bytebuddy.jar.asm,ClassReader,5665,0,648,0,1396,0,413,0,48,0
 Proyecto1_bets,net.bytebuddy.jar.asm,Context,3,0,0,0,1,0,1,0,1,0
 Proyecto1_bets,net.bytebuddy.jar.asm,Edge,12,0,0,0,5,0,1,0,1,0

@@ -22,7 +22,7 @@ public class Event implements Serializable {
 	private Integer eventNumber;
 	private String description; 
 	private Date eventDate;
-<span class="fc" id="L25">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)</span>
+<span class="pc" id="L25">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)</span>
 	private Vector&lt;Question&gt; questions=new Vector&lt;Question&gt;();
 	@XmlIDREF
 	private Sport sport;
@@ -43,13 +43,13 @@ public class Event implements Serializable {
 <span class="fc" id="L43">		super();</span>
 <span class="fc" id="L44">	}</span>
 
-<span class="fc" id="L46">	public Event(Integer eventNumber, String description,Date eventDate, Team lokala, Team kanpokoa) {</span>
-<span class="fc" id="L47">		this.eventNumber = eventNumber;</span>
-<span class="fc" id="L48">		this.description = description;</span>
-<span class="fc" id="L49">		this.eventDate=eventDate;</span>
-<span class="fc" id="L50">		this.lokala=lokala;</span>
-<span class="fc" id="L51">		this.kanpokoa=kanpokoa;</span>
-<span class="fc" id="L52">	}</span>
+<span class="nc" id="L46">	public Event(Integer eventNumber, String description,Date eventDate, Team lokala, Team kanpokoa) {</span>
+<span class="nc" id="L47">		this.eventNumber = eventNumber;</span>
+<span class="nc" id="L48">		this.description = description;</span>
+<span class="nc" id="L49">		this.eventDate=eventDate;</span>
+<span class="nc" id="L50">		this.lokala=lokala;</span>
+<span class="nc" id="L51">		this.kanpokoa=kanpokoa;</span>
+<span class="nc" id="L52">	}</span>
 	
 <span class="fc" id="L54">	public Event(String description,Date eventDate, Team lokala, Team kanpokoa) {</span>
 <span class="fc" id="L55">		this.description = description;</span>
@@ -83,7 +83,7 @@ public class Event implements Serializable {
 <span class="nc" id="L83">	}	</span>
 	
 	public Sport getSport() {
-<span class="fc" id="L86">		return sport;</span>
+<span class="nc" id="L86">		return sport;</span>
 	}
 
 	public void setSport(Sport sport) {

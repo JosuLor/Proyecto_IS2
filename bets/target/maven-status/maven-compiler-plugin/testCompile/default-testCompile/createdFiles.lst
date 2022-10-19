@@ -1,10 +1,8 @@
 tests\TestDataAccess.class
 tests\gertaerakSortuDAWTest.class
 tests\rankingLortuMockIntTest.class
-tests\gertaerakKopiatuMockIntTest.class
 tests\gertaerakKopiatuDABTest.class
 tests\rankingLortuDAWTest.class
 tests\gertaerakSortuMockIntTest.class
 tests\rankingLortuDABTest.class
 tests\gertaerakSortuDABTest.class
-tests\gertaerakKopiatuDAWTest.class

@@ -685,9 +685,9 @@ public class DataAccess  {
 <span class="fc" id="L685">		System.out.println(&quot;Opening DataAccess instance =&gt; isDatabaseLocal: &quot;+c.isDatabaseLocal()+&quot; getDatabBaseOpenMode: &quot;+c.getDataBaseOpenMode());</span>
 
 <span class="fc" id="L687">		String fileName=c.getDbFilename();</span>
-<span class="fc bfc" id="L688" title="All 2 branches covered.">		if (initializeMode) {</span>
-<span class="fc" id="L689">			fileName=fileName+&quot;;drop&quot;;</span>
-<span class="fc" id="L690">			System.out.println(&quot;Deleting the DataBase&quot;);</span>
+<span class="pc bpc" id="L688" title="1 of 2 branches missed.">		if (initializeMode) {</span>
+<span class="nc" id="L689">			fileName=fileName+&quot;;drop&quot;;</span>
+<span class="nc" id="L690">			System.out.println(&quot;Deleting the DataBase&quot;);</span>
 		}
 
 <span class="pc bpc" id="L693" title="1 of 2 branches missed.">		if (c.isDatabaseLocal()) {</span>
@@ -1024,13 +1024,13 @@ public class DataAccess  {
 <span class="fc" id="L1024">		boolean resultB = true; </span>
 <span class="fc" id="L1025">		List&lt;Question&gt; listQ = event.getQuestions(); </span>
 
-<span class="fc bfc" id="L1027" title="All 2 branches covered.">		for(Question q : listQ) {</span>
-<span class="pc bpc" id="L1028" title="1 of 2 branches missed.">			if(q.getResult() == null) {</span>
-<span class="fc" id="L1029">				resultB = false; </span>
+<span class="pc bpc" id="L1027" title="1 of 2 branches missed.">		for(Question q : listQ) {</span>
+<span class="nc bnc" id="L1028" title="All 2 branches missed.">			if(q.getResult() == null) {</span>
+<span class="nc" id="L1029">				resultB = false; </span>
 			}
-<span class="fc" id="L1031">		}</span>
-<span class="fc bfc" id="L1032" title="All 2 branches covered.">		if(resultB == false) {</span>
-<span class="fc" id="L1033">			return false;</span>
+<span class="nc" id="L1031">		}</span>
+<span class="pc bpc" id="L1032" title="1 of 2 branches missed.">		if(resultB == false) {</span>
+<span class="nc" id="L1033">			return false;</span>
 <span class="fc bfc" id="L1034" title="All 2 branches covered.">		}else if(new Date().compareTo(event.getEventDate())&lt;0) {</span>
 <span class="fc" id="L1035">			TypedQuery&lt;Quote&gt; Qquery = db.createQuery(&quot;SELECT q FROM Quote q WHERE q.getQuestion().getEvent().getEventNumber() =?1&quot;, Quote.class);</span>
 <span class="fc" id="L1036">			Qquery.setParameter(1, event.getEventNumber()); </span>
@@ -1103,43 +1103,43 @@ public class DataAccess  {
 	 * @return devuelve true si se ha copiado con �xito el evento 'e' en la fecha 'date'.
 	 */
 	public boolean gertaerakKopiatu(GertaerakKopiatuParameter parameterObject) {
-<span class="fc" id="L1106">		Boolean b=false;</span>
-<span class="fc" id="L1107">		Event gertaera = db.find(Event.class, parameterObject.e.getEventNumber());</span>
-<span class="fc" id="L1108">		db.getTransaction().begin();</span>
+<span class="nc" id="L1106">		Boolean b=false;</span>
+<span class="nc" id="L1107">		Event gertaera = db.find(Event.class, parameterObject.e.getEventNumber());</span>
+<span class="nc" id="L1108">		db.getTransaction().begin();</span>
 
 
-<span class="fc" id="L1111">		TypedQuery&lt;Event&gt; query = db.createQuery(&quot;SELECT ev FROM Event ev WHERE ev.getDescription()=?1 and ev.getEventDate()=?2&quot;,Event.class);   </span>
-<span class="fc" id="L1112">		query.setParameter(1,gertaera.getDescription());</span>
-<span class="fc" id="L1113">		query.setParameter(2, parameterObject.date);</span>
-<span class="fc bfc" id="L1114" title="All 2 branches covered.">		if(query.getResultList().isEmpty()) {</span>
-<span class="fc" id="L1115">			b=true;</span>
-<span class="fc" id="L1116">			eventCopy(parameterObject.date, gertaera);</span>
+<span class="nc" id="L1111">		TypedQuery&lt;Event&gt; query = db.createQuery(&quot;SELECT ev FROM Event ev WHERE ev.getDescription()=?1 and ev.getEventDate()=?2&quot;,Event.class);   </span>
+<span class="nc" id="L1112">		query.setParameter(1,gertaera.getDescription());</span>
+<span class="nc" id="L1113">		query.setParameter(2, parameterObject.date);</span>
+<span class="nc bnc" id="L1114" title="All 2 branches missed.">		if(query.getResultList().isEmpty()) {</span>
+<span class="nc" id="L1115">			b=true;</span>
+<span class="nc" id="L1116">			eventCopy(parameterObject.date, gertaera);</span>
 		}
-<span class="fc" id="L1118">		db.getTransaction().commit();</span>
-<span class="fc" id="L1119">		return b;</span>
+<span class="nc" id="L1118">		db.getTransaction().commit();</span>
+<span class="nc" id="L1119">		return b;</span>
 	}
 
 
 	private void eventCopy(Date date, Event gertaera) {
-<span class="fc" id="L1124">		String[] taldeak = gertaera.getDescription().split(&quot;-&quot;);</span>
-<span class="fc" id="L1125">		Team lokala = new Team(taldeak[0]);</span>
-<span class="fc" id="L1126">		Team kanpokoa = new Team(taldeak[1]);</span>
-<span class="fc" id="L1127">		Event gertKopiatu = new Event(gertaera.getDescription(), date, lokala, kanpokoa);</span>
-<span class="fc" id="L1128">		gertKopiatu.setSport(gertaera.getSport());</span>
-<span class="fc" id="L1129">		gertaera.getSport().addEvent(gertKopiatu);</span>
-<span class="fc" id="L1130">		db.persist(gertKopiatu);</span>
-<span class="fc" id="L1131">		questionsCopy(gertaera, gertKopiatu);</span>
-<span class="fc" id="L1132">	}</span>
+<span class="nc" id="L1124">		String[] taldeak = gertaera.getDescription().split(&quot;-&quot;);</span>
+<span class="nc" id="L1125">		Team lokala = new Team(taldeak[0]);</span>
+<span class="nc" id="L1126">		Team kanpokoa = new Team(taldeak[1]);</span>
+<span class="nc" id="L1127">		Event gertKopiatu = new Event(gertaera.getDescription(), date, lokala, kanpokoa);</span>
+<span class="nc" id="L1128">		gertKopiatu.setSport(gertaera.getSport());</span>
+<span class="nc" id="L1129">		gertaera.getSport().addEvent(gertKopiatu);</span>
+<span class="nc" id="L1130">		db.persist(gertKopiatu);</span>
+<span class="nc" id="L1131">		questionsCopy(gertaera, gertKopiatu);</span>
+<span class="nc" id="L1132">	}</span>
 
 	private void questionsCopy(Event gertaera, Event gertKopiatu) {
-<span class="pc bpc" id="L1135" title="1 of 2 branches missed.">		for(Question q : gertaera.getQuestions()) {</span>
+<span class="nc bnc" id="L1135" title="All 2 branches missed.">		for(Question q : gertaera.getQuestions()) {</span>
 <span class="nc" id="L1136">			Question que= new Question(q.getQuestion(), q.getBetMinimum(), gertKopiatu);</span>
 <span class="nc" id="L1137">			gertKopiatu.listaraGehitu(que);</span>
 <span class="nc" id="L1138">			Question galdera = db.find(Question.class, q.getQuestionNumber());</span>
 <span class="nc" id="L1139">			db.persist(que);</span>
 <span class="nc" id="L1140">			quoteCopy(que, galdera);</span>
 <span class="nc" id="L1141">		}</span>
-<span class="fc" id="L1142">	}</span>
+<span class="nc" id="L1142">	}</span>
 
 	private void quoteCopy(Question que, Question galdera) {
 <span class="nc bnc" id="L1145" title="All 2 branches missed.">		for(Quote k: galdera.getQuotes()) {</span>
