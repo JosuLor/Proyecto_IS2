@@ -1,0 +1,2 @@
+dataAccess.DataAccess#gertaerakKopiatu(LdataAccess/GertaerakKopiatuParameter;)Z
+dataAccess.DataAccess#eventCopy(Ljava/util/Date;Ldomain/Event;)V

@@ -1,0 +1,129 @@
+
+0gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java’ ’("3*À
+2M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java”# ”(1ñ
+î
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java”# ”(H
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetas‡„
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java”# ”(b
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+SelectOption2getString(Ljava/lang/String;)}
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java” ”("
+%3javax.swing.JLabel"javax.swing.JLabel¾
+»
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java” ”(c
+%4".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JLabel*
+
+%2java.lang.String›
+˜
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java” ”(c%
+gui.MainGUI"
+jLabelSelectOption"__id*
+
+%3javax.swing.JLabel›
+˜
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java• •(
+%5javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionj
+h
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java•1 •(:	
+%6int"__id*
+""us
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java•" •(&
+%7java.awt.Font"java.awt.Font»
+¸
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java• •(?
+%8"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%7java.awt.Font*
+
+Tahoma*
+	
+%6int*2ÝÚ
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java• •(@
+
+%9void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
+
+%5javax.swing.JLabel*
+
+%7java.awt.Font2setFont(Ljava/awt/Font;)œ
+™
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java– –(
+%10javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionv
+t
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java–$ –(/
+%11java.awt.Color"__id*
+""ïì
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java– –(0
+%12void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+
+%10javax.swing.JLabel*
+
+%11java.awt.Color2setForeground(Ljava/awt/Color;)œ
+™
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java— —(
+%13javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionk
+i
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java—- —(B
+
+%14int"__id*
+""ÔÑ
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java— —(C
+%15void"-javax.swing.JLabel#setHorizontalAlignment(I)V*
+
+%13javax.swing.JLabel*
+
+
+%14int2setHorizontalAlignment(I)*
+1*ø
+3M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java“ “(›
+˜
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java“ “(
+%0javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption*
+2
+1*ß
+1M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java™	 ™(œ
+™
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java™	 ™(
+%16javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption"l
+M
+AC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/MainGUI.java™ ™(
+
+%16javax.swing.JLabelB
+gui.MainGUI

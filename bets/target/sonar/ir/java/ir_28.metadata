@@ -1,0 +1,5 @@
+dataAccess.DataAccess#auxFTApustuaEgin(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Vector;)Ldomain/ApustuAnitza;
+domain.ApustuAnitza#instance-init#
+domain.ApustuAnitza#<init>(Ldomain/Registered;Ljava/lang/Double;)V
+domain.Apustua#<init>(Ldomain/ApustuAnitza;Ldomain/Quote;)V
+domain.Apustua#instance-init#

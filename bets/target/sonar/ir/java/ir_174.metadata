@@ -1,0 +1,4 @@
+gui.RegisterGUI#instance-init#
+javax.swing.JLabel#instance-init#
+gui.MainGUI#getBusinessLogic()Lorg/business_logic/BLFacade;
+javax.swing.JLabel#<init>()V

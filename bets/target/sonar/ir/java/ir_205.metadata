@@ -1,0 +1,4 @@
+gui.ApustuakEzabatuGUI#instance-init#
+javax.swing.DefaultComboBoxModel#<init>()V
+gui.MainGUI#getBusinessLogic()Lorg/business_logic/BLFacade;
+javax.swing.DefaultComboBoxModel#instance-init#

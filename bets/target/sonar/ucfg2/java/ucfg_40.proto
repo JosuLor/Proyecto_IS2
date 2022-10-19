@@ -1,0 +1,47 @@
+
+LdataAccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java© ©("1*×
+1W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaª ª(!¬
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaª ª(!%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÐÍ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaª9 ª(H
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+
+udomain.Registered2getUsername()ÈÅ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaª ª(I
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)—
+”
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaª ª(J
+regdomain.Registered"__id*
+
+%2domain.RegisteredÐÍ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java«	 «(
+%3java.lang.Double"0domain.Registered#getDirukop()Ljava/lang/Double;*
+
+regdomain.Registered2getDirukop()ÉÆ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java«	 «($
+%4java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
+
+%3java.lang.Double2
+toString()"s
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java« «(%
+
+%4java.lang.String:
+udomain.RegisteredB
+dataAccess.DataAccess

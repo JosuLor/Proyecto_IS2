@@ -1,0 +1,7 @@
+organization=jan22-23
+projectKey=Proyecto1_bets
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.33578
+dashboardUrl=https://sonarcloud.io/dashboard?id=Proyecto1_bets
+ceTaskId=AYPvvnOO4P6BMGAl9ami
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYPvvnOO4P6BMGAl9ami

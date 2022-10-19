@@ -1,0 +1,87 @@
+
+BdataAccess.DataAccess#getEventsTeam(Ldomain/Team;)Ljava/util/List;W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¾	 ¾	(!"1*·
+1W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿		 ¿	(¬
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿		 ¿	(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÁ¾
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿	 ¿	(,
+%1java.lang.String"(domain.Team#getIzena()Ljava/lang/String;*
+
+teamdomain.Team2
+getIzena()Â¿
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿		 ¿	(-
+%2domain.Team"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)‰
+†
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿	 ¿	(.
+tdomain.Team"__id*
+
+%2domain.Team¬
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÀ	 À	(%
+%3javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db¶³
+X
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÀ	 À	(–"
+%4javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%3javax.persistence.EntityManager*`^
+\SELECT ev FROM Event ev WHERE ev.getLokala().getIzena()=?1 OR ev.getKanpokoa().getIzena()=?2*
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)°
+­
+X
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÀ	 À	(—%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%4javax.persistence.TypedQuery¾»
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ	 Á	($
+%5java.lang.String"(domain.Team#getIzena()Ljava/lang/String;*
+
+tdomain.Team2
+getIzena()ÊÇ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ	 Á	(%"
+%6javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*'
+%
+queryjavax.persistence.TypedQuery*2*
+
+%5java.lang.String2!setParameter(ILjava/lang/Object;)¾»
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÂ	 Â	($
+%7java.lang.String"(domain.Team#getIzena()Ljava/lang/String;*
+
+tdomain.Team2
+getIzena()ÊÇ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÂ	 Â	(%"
+%8javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*'
+%
+queryjavax.persistence.TypedQuery*2*
+
+%7java.lang.String2!setParameter(ILjava/lang/Object;)êç
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÃ		 Ã	(
+%9java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()"q
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÃ	 Ã	(
+
+%9java.util.List:
+teamdomain.TeamB
+dataAccess.DataAccess

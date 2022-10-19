@@ -1,0 +1,66 @@
+
+KdataAccess.DataAccess#findTransakzioak(Ldomain/Registered;)Ljava/util/List;W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java½ ½(*"1*´
+1W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¾! ¾(#¬
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¾! ¾(#%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÐÍ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¾; ¾(J
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+
+udomain.Registered2getUsername()ÈÅ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¾! ¾(K
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)¬
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿# ¿(%%
+%3javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db£ 
+X
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿# ¿(‘"
+%4javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%3javax.persistence.EntityManager*MK
+ISELECT t FROM Transaction t WHERE t.getErabiltzailea().getUsername() =?1 *
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)±
+®
+X
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java¿ ¿(’&
+Tqueryjavax.persistence.TypedQuery"__id*$
+"
+%4javax.persistence.TypedQueryÐÍ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÀ À((
+%5java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+
+udomain.Registered2getUsername()ËÈ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÀ À()"
+%6javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*(
+&
+Tqueryjavax.persistence.TypedQuery*2*
+
+%5java.lang.String2!setParameter(ILjava/lang/Object;)ëè
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ	 Á(
+%7java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*(
+&
+Tqueryjavax.persistence.TypedQuery2getResultList()"q
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ Á( 
+
+%7java.util.List:
+udomain.RegisteredB
+dataAccess.DataAccess

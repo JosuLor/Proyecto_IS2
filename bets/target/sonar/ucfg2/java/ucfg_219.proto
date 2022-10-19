@@ -1,0 +1,37 @@
+
+)domain.Event#toString()Ljava/lang/String;L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java] ]("1*®
+1L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java^	 ^(ì
+ê
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java^	 ^(
+%0java.lang.Integer"__id*!*
+domain.Event"
+eventNumberï
+í
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java^	 ^(
+%1java.lang.String"__concat*
+
+%0java.lang.Integer*
+;í
+è
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java^ ^($
+%2java.lang.String"__id*!*
+domain.Event"
+descriptionß
+§
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java^	 ^($
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String"h
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Event.java^ ^(%
+
+%3java.lang.StringB
+domain.Event

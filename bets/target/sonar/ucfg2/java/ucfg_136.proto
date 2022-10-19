@@ -1,0 +1,239 @@
+
+7gui.RegisteredGUI#getJContentPane()Ljavax/swing/JPanel;Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javae e("3*Á7
+2Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javag g(ÑÅ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javag g(
+%1javax.swing.JPanel"javax.swing.JPanelñ
+ì
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javag g(
+%2"javax.swing.JPanel#<init>()V*
+
+%1javax.swing.JPanelü
+ú
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javag g(%
+gui.RegisteredGUI"
+jContentPane"__id*
+
+%1javax.swing.JPanelü
+ú
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javah h(
+%3javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPaney
+w
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javah h()
+%4java.awt.Color"__id*
+""Ì
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javah h(*
+
+%5void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
+
+%3javax.swing.JPanel*
+
+%4java.awt.Color2setBackground(Ljava/awt/Color;)ü
+ú
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javai i(
+%6javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane‰·
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javai i(
+
+%7void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
+
+%6javax.swing.JPanel*
+""2#setLayout(Ljava/awt/LayoutManager;)ü
+ú
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaj j(
+%8javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPaneø
+º
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaj j($
+%9javax.swing.JLabel"6gui.RegisteredGUI#getLblNewLabel()Ljavax/swing/JLabel;*
+gui.RegisteredGUIÜÉ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaj j(%
+%10java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%8javax.swing.JPanel*
+
+%9javax.swing.JLabel2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javak k(
+%11javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPaneΩ
+∫
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javak k(
+%12javax.swing.JButton"2gui.RegisteredGUI#getBoton3()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javak k( 
+%13java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%11javax.swing.JPanel*
+
+%12javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javal l(
+%14javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane»
+≈
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javal l(*
+%15javax.swing.JButton"=gui.RegisteredGUI#getJButtonDiruaSartu()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javal l(+
+%16java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%14javax.swing.JPanel*
+
+%15javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javam m(
+%17javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane…
+∆
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javam m(+
+%18javax.swing.JButton">gui.RegisteredGUI#getJButtonApustuaEgin()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javam m(,
+%19java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%17javax.swing.JPanel*
+
+%18javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javan n(
+%20javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPaneÃ
+…
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javan n(.
+%21javax.swing.JButton"Agui.RegisteredGUI#getJButtonApustuaEzabatu()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javan n(/
+%22java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%20javax.swing.JPanel*
+
+%21javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javao o(
+%23javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane“
+œ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javao o(4
+%24javax.swing.JButton"Ggui.RegisteredGUI#getJButtonMugimenduakBistaratu()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javao o(5
+%25java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%23javax.swing.JPanel*
+
+%24javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javap p(
+%26javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane∆
+√
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javap p((
+%27javax.swing.JButton";gui.RegisteredGUI#getJButtonDesLogin()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javap p()
+%28java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%26javax.swing.JPanel*
+
+%27javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaq q(
+%29javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPaneæ
+ª
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaq q( 
+%30javax.swing.JButton"3gui.RegisteredGUI#getBtnRank()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaq q(!
+%31java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%29javax.swing.JPanel*
+
+%30javax.swing.JButton2add(Ljava/awt/Component;)†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javar r(
+%32javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPaneƒ
+¡
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javar r(&
+%33javax.swing.JButton"9gui.RegisteredGUI#getBtnDestacados()Ljavax/swing/JButton;*
+gui.RegisteredGUIâÜ
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javar r('
+%34java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%32javax.swing.JPanel*
+
+%33javax.swing.JButton2add(Ljava/awt/Component;)*
+1*Ä
+3Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaf f(ü
+ú
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javaf f(
+%0javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane*
+2
+1*Î
+1Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javat	 t(†
+ù
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javat	 t(
+%35javax.swing.JPanel"__id*'*%
+gui.RegisteredGUI"
+jContentPane"p
+Q
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/gui/RegisteredGUI.javat t(
+
+%35javax.swing.JPanelB
+gui.RegisteredGUI

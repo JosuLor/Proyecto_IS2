@@ -1,0 +1,86 @@
+
+.domain.Registered#toString()Ljava/lang/String;S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java© ©("3*ä
+
+2S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «(ÉÆ
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «(
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+domain.Registered2getUsername()›
+˜
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «("
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ œ
+™
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «(0
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+""œ
+™
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «(6
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+: Ÿ
+œ
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«9 «(J
+%5java.lang.Double"__id*'*%
+domain.Registered"
+irabazitakoa®
+«
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «(J
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.Double
+š
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java«
+ «(P
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+ï¿½"o
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java« «(Q
+
+%7java.lang.String*ú
+3S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.javaª ª(	—
+”
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.javaª ª(
+%0java.lang.String"__id**
+domain.Registered"
+mode*
+2
+1*•
+1S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java­
+ ­(ÉÆ
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java­
+ ­(
+%8java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+domain.Registered2getUsername()"o
+S
+GC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Registered.java­ ­(
+
+%8java.lang.StringB
+domain.Registered

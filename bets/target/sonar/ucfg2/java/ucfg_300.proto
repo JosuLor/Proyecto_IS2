@@ -1,0 +1,16 @@
+
+0domain.Quote#getQuoteNumber()Ljava/lang/Integer;L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaI I("1*“
+1L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaJ	 J(ì
+ê
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaJ	 J(
+%0java.lang.Integer"__id*!*
+domain.Quote"
+quoteNumber"i
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaJ J(
+
+%0java.lang.IntegerB
+domain.Quote

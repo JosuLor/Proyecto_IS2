@@ -50,7 +50,7 @@
 		<sonar.organization>jan22-23</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>Proyecto1_bets</sonar.projectKey>
-		<sonar.login>4b61160f7a04df9db87130e8ddda1fb31be39357</sonar.login>
+		<sonar.login>8767f7426110381dd95af732de945fb2939f7f92</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->

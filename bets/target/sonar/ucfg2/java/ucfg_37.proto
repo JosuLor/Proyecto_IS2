@@ -1,0 +1,262 @@
+
+4dataAccess.DataAccess#EmaitzakIpini(Ldomain/Quote;)VW
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java◊ ◊("7*«
+2W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÎ Î(Ÿ÷
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÎ Î(+
+%31domain.ApustuAnitza"5domain.Apustua#getApustuAnitza()Ldomain/ApustuAnitza;*
+
+adomain.Apustua2getApustuAnitza()áÑ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÎ Î(,
+%32void"<dataAccess.DataAccess#ApustuaIrabazi(Ldomain/ApustuAnitza;)V*
+dataAccess.DataAccess*
+
+%31domain.ApustuAnitza2%ApustuaIrabazi(Ldomain/ApustuAnitza;)*
+1*‹
+3W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ Á(≠
+™
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ Á(&
+%23javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbõò
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ Á(*
+%24#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%23javax.persistence.EntityManager2getTransaction()ŒÀ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÁ Á(
+%25void",javax.persistence.EntityTransaction#begin()V*,
+*
+%24#javax.persistence.EntityTransaction2begin()Ÿ÷
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaË Ë(#
+%26domain.ApustuAnitza"5domain.Apustua#getApustuAnitza()Ldomain/ApustuAnitza;*
+
+adomain.Apustua2getApustuAnitza()«ƒ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaË Ë(6
+%27boolean"'domain.ApustuAnitza#irabazitaMarkatu()Z*
+
+%26domain.ApustuAnitza2irabazitaMarkatu()è
+å
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaË Ë(7
+booljava.lang.Boolean"__id*
+
+%27boolean≠
+™
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÈ È(&
+%28javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbõò
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÈ È(*
+%29#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%28javax.persistence.EntityManager2getTransaction()–Õ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÈ È(
+%30void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%29#javax.persistence.EntityTransaction2commit()*
+2
+1*·
+5W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaﬂ! ﬂ("«ƒ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaﬂ! ﬂ(0
+%11java.util.Vector",domain.Quote#getApustuak()Ljava/util/Vector;*
+
+qdomain.Quote2getApustuak()ü
+ú
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaﬂ ﬂ(1 
+listApustuakjava.util.Vector"__id*
+
+%11java.util.Vector≠
+™
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‡ ‡(&
+%12javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbõò
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‡ ‡(*
+%13#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%12javax.persistence.EntityManager2getTransaction()ŒÀ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‡ ‡(
+%14void",javax.persistence.EntityTransaction#begin()V*,
+*
+%13#javax.persistence.EntityTransaction2begin()≈¬
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java· ·( 
+%15domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
+
+qdomain.Quote2getQuestion()î
+ë
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java· ·(!
+quedomain.Question"__id*
+
+%15domain.Question≠
+™
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‚ ‚(&
+%16javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db»≈
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‚ ‚(2
+%17domain.Question"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
+&
+%16javax.persistence.EntityManager*
+""*
+
+quedomain.Question2)find(Ljava/lang/Class;Ljava/lang/Object;)ô
+ñ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‚ ‚(3
+questiondomain.Question"__id*
+
+%17domain.QuestionıÚ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java„ „(
+%18void".domain.Question#setResult(Ljava/lang/String;)V*
+
+questiondomain.Question*
+
+resultjava.lang.String2setResult(Ljava/lang/String;)„
+‡
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‰ ‰( 
+%19void">dataAccess.DataAccess#galdutaMarkatuRefact(Ldomain/Question;)V*
+dataAccess.DataAccess*
+
+questiondomain.Question≠
+™
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÂ Â(&
+%20javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbõò
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÂ Â(*
+%21#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%20javax.persistence.EntityManager2getTransaction()–Õ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÂ Â(
+%22void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%21#javax.persistence.EntityTransaction2commit()*
+1*≤
+6W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java›	 ›(úô
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java› ›(!
+%9exceptions.EventNotFinished"exceptions.EventNotFinishedØ
+¨
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java›	 ›(
+%10"%exceptions.EventNotFinished#<init>()V*#
+!
+%9exceptions.EventNotFinished*
+0*ö
+7W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaŸ Ÿ(¨
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaŸ Ÿ(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db¬ø
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaŸ Ÿ('
+%1domain.Quote"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+quotedomain.Quote2)find(Ljava/lang/Class;Ljava/lang/Object;)ã
+à
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaŸ Ÿ((
+qdomain.Quote"__id*
+
+%1domain.Quote∆√
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java⁄ ⁄(!
+%2java.lang.String",domain.Quote#getForecast()Ljava/lang/String;*
+
+qdomain.Quote2getForecast()ò
+ï
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java⁄ ⁄("
+resultjava.lang.String"__id*
+
+%2java.lang.StringÅ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‹	 ‹(
+%3java.util.Date"java.util.Dateî
+ë
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‹ ‹(
+%4"java.util.Date#<init>()V*
+
+%3java.util.Dateƒ¡
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‹ ‹()
+%5domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
+
+qdomain.Quote2getQuestion()øº
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‹ ‹(4
+%6domain.Event"(domain.Question#getEvent()Ldomain/Event;*
+
+%5domain.Question2
+getEvent()≈¬
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‹ ‹(C
+%7java.util.Date"+domain.Event#getEventDate()Ljava/util/Date;*
+
+%6domain.Event2getEventDate()·ﬁ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java‹ ‹(D	
+%8int"+java.util.Date#compareTo(Ljava/util/Date;)I*
+
+%3java.util.Date*
+
+%7java.util.Date2compareTo(Ljava/util/Date;)*
+5
+6*u
+0 "n
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÓ Ó(
+implicit return*ê
+1W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÊ Ê(~
+|
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÊ Ê(
+adomain.Apustua"__id*
+""©
+¶
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaÊ Ê(
+adomain.Apustua"
+__arrayGet*"
+ 
+listApustuakjava.util.Vector*
+""*
+3
+0:
+quotedomain.QuoteB
+dataAccess.DataAccess

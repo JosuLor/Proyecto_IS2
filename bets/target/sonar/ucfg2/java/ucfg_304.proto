@@ -1,0 +1,53 @@
+
+)domain.Quote#toString()Ljava/lang/String;L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaY Y("1*ë	
+1L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ	 Z(è
+å
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ Z(
+%0java.lang.String"__id**
+domain.Quote"
+
+forecastù
+ö
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ	 Z(
+%1java.lang.String"__concat*
+
+Forecast: *
+
+%0java.lang.Stringú
+ô
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ	 Z(*
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	; Quote: å
+â
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ; Z(@
+%3java.lang.Double"__id**
+domain.Quote"
+balio…
+∆
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ+ Z(A
+%4java.lang.String".java.lang.Double#toString(D)Ljava/lang/String;*"
+java.lang.Double*
+
+%3java.lang.Doubleß
+§
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ	 Z(A
+%5java.lang.String"__concat*
+
+%2java.lang.String*
+
+%4java.lang.String"h
+L
+BC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Quote.javaZ Z(B
+
+%5java.lang.StringB
+domain.Quote

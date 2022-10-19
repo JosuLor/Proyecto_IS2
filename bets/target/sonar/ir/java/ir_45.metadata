@@ -1,0 +1,4 @@
+dataAccess.DataAccess#questionsCopy(Ldomain/Event;Ldomain/Event;)V
+domain.Question#<init>(Ljava/lang/String;DLdomain/Event;)V
+dataAccess.DataAccess#quoteCopy(Ldomain/Question;Ldomain/Question;)V
+domain.Question#instance-init#

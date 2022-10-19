@@ -1,0 +1,30 @@
+
+FdataAccess.DataAccess#findUser(Ldomain/Registered;)Ldomain/Registered;W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.javaº	 º	("1*¢
+1W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java»		 »	(¬
+©
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java»		 »	(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÓÐ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java»	# »	(5
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+
+userdomain.Registered2getUsername()ÈÅ
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java»		 »	(6
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)"t
+W
+KC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/dataAccess/DataAccess.java»	 »	(7
+
+%2domain.Registered:
+userdomain.RegisteredB
+dataAccess.DataAccess

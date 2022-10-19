@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.rankingLortuDABTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE! - in tests.rankingLortuDABTest
+test0(tests.rankingLortuDABTest)  Time elapsed: 0.035 sec  <<< FAILURE!
+java.lang.AssertionError: expected: java.util.ArrayList<[registered, mikel, markel, andrea, admin]> but was: java.util.ArrayList<[registered, mikel, markel, andrea, admin]>
+	at tests.rankingLortuDABTest.test0(rankingLortuDABTest.java:28)
+

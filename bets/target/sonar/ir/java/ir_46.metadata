@@ -1,0 +1,3 @@
+dataAccess.DataAccess#quoteCopy(Ldomain/Question;Ldomain/Question;)V
+domain.Quote#<init>(Ljava/lang/Double;Ljava/lang/String;Ldomain/Question;)V
+domain.Quote#instance-init#

@@ -1,0 +1,60 @@
+
+*domain.Apustua#equals(Ljava/lang/Object;)ZN
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.javaY Y("startingBlock*­
+2N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java\
+ \("X
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java\ \(
+""*å
+3N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.javaZ Z(‡
+„
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.javaZ Z(
+adomain.Apustua"__id*
+
+ojava.lang.Object*
+2
+1*þ
+startingBlockN
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.javaY Y( –
+“
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.javaX X(
+
+%3"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Object
+}
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.javaY Y(
+ojava.lang.Object"__annotation*
+
+%3*
+3*°
+1N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java^	 ^(ÊÇ
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java^	 ^( 
+%0java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
+domain.Apustua2getApostuaNumber()ÍÊ
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java^( ^(<
+%1java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
+
+adomain.Apustua2getApostuaNumber()ãà
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java^	 ^(=
+%2boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.Integer*
+
+%1java.lang.Integer2equals(Ljava/lang/Object;)"X
+N
+DC:/Users/ehu/git/Proyecto_IS2/bets/src/main/java/domain/Apustua.java^ ^(>
+"":
+ojava.lang.ObjectB
+domain.Apustua

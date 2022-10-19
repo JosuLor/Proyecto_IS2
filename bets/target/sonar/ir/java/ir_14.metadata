@@ -1,0 +1,3 @@
+dataAccess.DataAccess#gertaerakSortu(Ldomain/EventParam;)Z
+dataAccess.DataAccess#gertaerakSortuAuxiliar_LookForDuplicatedEvents(Ljava/util/Date;Ljava/lang/String;)Z
+dataAccess.DataAccess#gertaerakSortuAuxiliar(Ljava/lang/String;Ljava/util/Date;Ldomain/Sport;)V

@@ -1,0 +1,8 @@
+dataAccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z
+dataAccess.DataAccess#auxFors(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Vector;Ljava/lang/Integer;)V
+java.util.Date#<init>()V
+dataAccess.DataAccess#auxFTApustuaEgin(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Vector;)Ldomain/ApustuAnitza;
+domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+java.util.Date#instance-init#
+domain.Transaction#instance-init#
+dataAccess.DataAccess#auxFor1(Ldomain/ApustuAnitza;)V
