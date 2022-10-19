@@ -9,13 +9,13 @@ import org.junit.Before;
 import org.junit.Test;
 
 import configuration.UtilDate;
-import dataAccess.DataAccess;
+import dataAccess.DataAccessGertaerakSortu;
 import domain.Event;
 import domain.EventParam;
 
 public class gertaerakSortuDABTest {
 
-	private DataAccess dt = new DataAccess();
+	private DataAccessGertaerakSortu dt = new DataAccessGertaerakSortu();
 	Calendar today = Calendar.getInstance();
 	private String description;
 	private Date data;

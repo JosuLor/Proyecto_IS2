@@ -42,7 +42,7 @@ public interface BLFacade  {
 	 * @throws EventFinished if current data is after data of the event
  	 * @throws QuestionAlreadyExist if the same question already exists for the event
 	 */
-	@WebMethod Question createQuestion(Event event, String question, float betMinimum) throws EventFinished, QuestionAlreadyExist;
+	//@WebMethod Question createQuestion(Event event, String question, float betMinimum) throws EventFinished, QuestionAlreadyExist;
 	
 	
 	/**
@@ -51,7 +51,7 @@ public interface BLFacade  {
 	 * @param date in which events are retrieved
 	 * @return collection of events
 	 */
-	@WebMethod public Vector<Event> getEvents(Date date);
+	//@WebMethod public Vector<Event> getEvents(Date date);
 	
 	/**
 	 * This method retrieves from the database the dates a month for which there are events
@@ -59,7 +59,7 @@ public interface BLFacade  {
 	 * @param date of the month for which days with events want to be retrieved 
 	 * @return collection of dates
 	 */
-	@WebMethod public Vector<Date> getEventsMonth(Date date);
+	//@WebMethod public Vector<Date> getEventsMonth(Date date);
 	
 	/**
 	 * This method calls the data access to initialize the database with some events and questions.
@@ -67,68 +67,68 @@ public interface BLFacade  {
 	 */	
 	@WebMethod public void initializeBD();
 
-	@WebMethod public Registered isLogin(String username, String password); 
+	//@WebMethod public Registered isLogin(String username, String password); 
 	
-	@WebMethod public boolean isRegister(String username); 
-	@WebMethod public void storeRegistered(String username, String password, Integer bankAccount);
+	//@WebMethod public boolean isRegister(String username); 
+	//@WebMethod public void storeRegistered(String username, String password, Integer bankAccount);
 	
 	@WebMethod public boolean gertaerakSortu(EventParam params);
 	
-	@WebMethod public void storeQuote(String forecast, Double quote, Question question) throws QuoteAlreadyExist;
+	//@WebMethod public void storeQuote(String forecast, Double quote, Question question) throws QuoteAlreadyExist;
 	
-	@WebMethod public Collection<Question> findQuestion(Event event);
+	//@WebMethod public Collection<Question> findQuestion(Event event);
 	
 	@WebMethod public void DiruaSartu(Registered u, Double dirua, String mota); 
 	
-	@WebMethod public Collection<Quote> findQuote(Question question); 
+	//@WebMethod public Collection<Quote> findQuote(Question question); 
 	
-	@WebMethod public boolean ApustuaEgin(Registered u, Vector<Quote> q, Double balioa, Integer apustuaGalarazi); 
+	//@WebMethod public boolean ApustuaEgin(Registered u, Vector<Quote> q, Double balioa, Integer apustuaGalarazi); 
 	
-	@WebMethod public List<Apustua> findApustua(Registered u); 
+	//@WebMethod public List<Apustua> findApustua(Registered u); 
 	
-	@WebMethod public Event findEvent(Quote q);
+	//@WebMethod public Event findEvent(Quote q);
 	
-	@WebMethod public Question findQuestionFromQuote(Quote q);
+	//@WebMethod public Question findQuestionFromQuote(Quote q);
 	
-	@WebMethod public Event findEventFromApustua(Apustua q);
+	//@WebMethod public Event findEventFromApustua(Apustua q);
 	
-	@WebMethod public List<ApustuAnitza> findApustuAnitza(Registered u); 
+	//@WebMethod public List<ApustuAnitza> findApustuAnitza(Registered u); 
 	
-	@WebMethod public void apustuaEzabatu(Registered user1, ApustuAnitza apustua); 
+	//@WebMethod public void apustuaEzabatu(Registered user1, ApustuAnitza apustua); 
 	
-	@WebMethod public List<Transaction> findTransakzioak(Registered u); 
+	//@WebMethod public List<Transaction> findTransakzioak(Registered u); 
 	
-	@WebMethod public void EmaitzakIpini(Quote quote) throws EventNotFinished;
+	//@WebMethod public void EmaitzakIpini(Quote quote) throws EventNotFinished;
 	
-	@WebMethod  public boolean gertaeraEzabatu(Event ev);
+	//@WebMethod  public boolean gertaeraEzabatu(Event ev);
 	
-	@WebMethod public String saldoaBistaratu(Registered u);
-	
-		
-	@WebMethod public List<Registered> rankingLortu();
-	
-	@WebMethod public List<Event> getEventsAll();
-	
-	
-	@WebMethod public boolean gertaerakKopiatu(GertaerakKopiatuParameter params);
-	
-	@WebMethod public boolean jarraitu(Registered jabea, Registered jarraitua, Double limit);
-	
-	
-	@WebMethod public Sport popularrenaLortu();
-	
-	@WebMethod public void ezJarraituTaldea(Registered u);
-	
-	@WebMethod public List<Team> getAllTeams();
-	
-	@WebMethod public void jarraituTaldea(Registered u, Team t);
-	
-	@WebMethod public Registered findUser(Registered user);
-	
-	@WebMethod public List<Event> getEventsTeam(Team t);
+	//@WebMethod public String saldoaBistaratu(Registered u);
 	
 		
-	@WebMethod public Team findTeam(Registered u);
+	//@WebMethod public List<Registered> rankingLortu();
 	
-	@WebMethod public Sport findSport(Event q);
+	//@WebMethod public List<Event> getEventsAll();
+	
+	
+	//@WebMethod public boolean gertaerakKopiatu(GertaerakKopiatuParameter params);
+	
+	//@WebMethod public boolean jarraitu(Registered jabea, Registered jarraitua, Double limit);
+	
+	
+	//@WebMethod public Sport popularrenaLortu();
+	
+	//@WebMethod public void ezJarraituTaldea(Registered u);
+	
+	//@WebMethod public List<Team> getAllTeams();
+	
+	//@WebMethod public void jarraituTaldea(Registered u, Team t);
+	
+	//@WebMethod public Registered findUser(Registered user);
+	
+	//@WebMethod public List<Event> getEventsTeam(Team t);
+	
+		
+	//@WebMethod public Team findTeam(Registered u);
+	
+	//@WebMethod public Sport findSport(Event q);
 }

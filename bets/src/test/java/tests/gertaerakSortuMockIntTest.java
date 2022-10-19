@@ -15,14 +15,14 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import configuration.UtilDate;
-import dataAccess.DataAccess;
+import dataAccess.DataAccessGertaerakSortu;
 import domain.Event;
 import domain.EventParam;
 import domain.Team;
 
 public class gertaerakSortuMockIntTest {
 	
-	DataAccess da = Mockito.mock(DataAccess.class);
+	DataAccessGertaerakSortu da = Mockito.mock(DataAccessGertaerakSortu.class);
 	
 	@InjectMocks
 	BLFacade sut = new BLFacadeImplementation(da);
