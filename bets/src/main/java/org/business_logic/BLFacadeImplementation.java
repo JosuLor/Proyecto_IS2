@@ -10,6 +10,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 import configuration.ConfigXML;
+import dataAccess.DataAccess;
 import dataAccess.DataAccessGertaerakSortu;
 import dataAccess.GertaerakKopiatuParameter;
 import domain.ApustuAnitza;
@@ -31,37 +32,14 @@ import exceptions.QuoteAlreadyExist;
  * It implements the business logic as a web service.
  */
 @WebService(endpointInterface = "businessLogic.BLFacade")
-public class BLFacadeImplementation  implements BLFacade {
-	DataAccessGertaerakSortu dbManager;
+public class BLFacadeImplementation implements BLFacade {
+	DataAccess dbManager;
 
-	public BLFacadeImplementation()  {		
-		System.out.println("Creating BLFacadeImplementation instance");
-		ConfigXML c=ConfigXML.getInstance();
-		
-		if (c.getDataBaseOpenMode().equals("initialize")) {
-		    dbManager=new DataAccessGertaerakSortu(c.getDataBaseOpenMode().equals("initialize"));
-		    dbManager.initializeDB();
-		    } else
-		     dbManager=new DataAccessGertaerakSortu();
+	public BLFacadeImplementation(boolean mode)  {
+		dbManager = new DataAccess(mode);
+		dbManager.initializeDB();
 		dbManager.close();
-
-		
 	}
-	
-    public BLFacadeImplementation(DataAccessGertaerakSortu da)  {
-		
-		System.out.println("Creating BLFacadeImplementation instance with DataAccess parameter");
-		ConfigXML c=ConfigXML.getInstance();
-		
-		if (c.getDataBaseOpenMode().equals("initialize")) {
-			da.open(true);
-			da.initializeDB();			
-			da.close();
-
-		}
-		dbManager=da;
-	}
-	
 
 	/**
 	 * This method creates a question for an event, with a question text and the minimum bet
@@ -139,27 +117,27 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.close();
 	}
     
-//    @WebMethod	
-//    public Registered isLogin(String username, String password) {
-//    	dbManager.open(false);
-//    	Registered u = dbManager.isLogin(username, password);
-//    	dbManager.close();
-//    	return u;
-//		
-//	}
-//    @WebMethod	
-//    public boolean isRegister(String username) {
-//    	dbManager.open(false);
-//    	boolean u = dbManager.isRegister(username);
-//    	dbManager.close();
-//    	return u;
-//    }
-//    @WebMethod	
-//    public void storeRegistered(String username, String password, Integer bankAccount) {
-//    	dbManager.open(false);
-//    	dbManager.storeRegistered(username, password, bankAccount);
-//    	dbManager.close();
-//    }
+    @WebMethod	
+    public Registered isLogin(String username, String password) {
+    	dbManager.open(false);
+    	Registered u = dbManager.isLogin(username, password);
+    	dbManager.close();
+    	return u;
+		
+	}
+    @WebMethod	
+    public boolean isRegister(String username) {
+    	dbManager.open(false);
+    	boolean u = dbManager.isRegister(username);
+    	dbManager.close();
+    	return u;
+    }
+    @WebMethod	
+    public void storeRegistered(String username, String password, Integer bankAccount) {
+    	dbManager.open(false);
+    	dbManager.storeRegistered(username, password, bankAccount);
+    	dbManager.close();
+    }
     @WebMethod	
     public boolean gertaerakSortu(EventParam params) {
     	dbManager.open(false);
@@ -167,26 +145,26 @@ public class BLFacadeImplementation  implements BLFacade {
     	dbManager.close();
     	return b;
     }
-//    @WebMethod	
-//    public void storeQuote(String forecast, Double Quote, Question question) throws QuoteAlreadyExist {
-//    	dbManager.open(false);
-//    	dbManager.storeQuote(forecast, Quote, question);
-//    	dbManager.close();
-//    }
-//    @WebMethod	
-//    public Collection<Question> findQuestion(Event event){
-//    	dbManager.open(false);
-//		Collection<Question> v = dbManager.findQuestion(event);
-//		dbManager.close();
-//		return v;
-//	}
-//    @WebMethod	
-//    public Collection<Quote> findQuote(Question question){
-//    	dbManager.open(false);
-//		Collection<Quote> v = dbManager.findQuote(question);
-//		dbManager.close();
-//		return v;
-//    }
+    @WebMethod	
+    public void storeQuote(String forecast, Double Quote, Question question) throws QuoteAlreadyExist {
+    	dbManager.open(false);
+    	dbManager.storeQuote(forecast, Quote, question);
+    	dbManager.close();
+    }
+    @WebMethod	
+    public Collection<Question> findQuestion(Event event){
+    	dbManager.open(false);
+		Collection<Question> v = dbManager.findQuestion(event);
+		dbManager.close();
+		return v;
+	}
+    @WebMethod	
+    public Collection<Quote> findQuote(Question question){
+    	dbManager.open(false);
+		Collection<Quote> v = dbManager.findQuote(question);
+		dbManager.close();
+		return v;
+    }
     @WebMethod	
     public void DiruaSartu(Registered u, Double dirua, String mota) {
     	Date data = new Date();
@@ -194,190 +172,190 @@ public class BLFacadeImplementation  implements BLFacade {
     	dbManager.DiruaSartu(u, dirua, data, mota);
     	dbManager.close();
     }
-//    @WebMethod	
-//    public boolean ApustuaEgin(Registered u, Vector<Quote> q, Double balioa, Integer apustuaGalarazi) {
-//    	dbManager.open(false);
-//    	boolean b = dbManager.ApustuaEgin(u, q, balioa, apustuaGalarazi);
-//    	dbManager.close();
-//    	return b; 
-//    }
-//    @WebMethod	
-//    public List<Apustua> findApustua(Registered u){
-//    	dbManager.open(false);
-//    	List<Apustua> a = dbManager.findApustua(u); 
-//    	dbManager.close();
-//    	return a; 
-//    }
-//    
-//    @WebMethod
-//    public List<ApustuAnitza> findApustuAnitza(Registered u){
-//    	dbManager.open(false);
-//    	List<ApustuAnitza> a = dbManager.findApustuAnitza(u); 
-//    	dbManager.close();
-//    	return a;
-//    }
-//    /*
-//    @WebMethod	
-//    public List<ApustuaContainer> findApustuaContainer(User u){
-//    	dbManager.open(false);
-//    	List<ApustuaContainer> a = dbManager.findApustuaContainer(u); 
-//    	dbManager.close();
-//    	return a; 
-//    }*/
-//    @WebMethod	
-//    public void apustuaEzabatu(Registered user1, ApustuAnitza apustua) {
-//    	dbManager.open(false);
-//    	dbManager.apustuaEzabatu(user1, apustua);
-//    	dbManager.close();
-//    }
-//    @WebMethod	
-//    public List<Transaction> findTransakzioak(Registered u){
-//    	dbManager.open(false);
-//    	List<Transaction> l = dbManager.findTransakzioak(u);
-//    	dbManager.close();
-//    	return l; 
-//    }
-//    @WebMethod	
-//    public void EmaitzakIpini(Quote quote) throws EventNotFinished {
-//    	dbManager.open(false);
-//    	dbManager.EmaitzakIpini(quote);
-//    	dbManager.close();
-//    }
-//    @WebMethod	
-//    public boolean gertaeraEzabatu(Event ev) {
-//    	dbManager.open(false);
-//    	boolean b = dbManager.gertaeraEzabatu(ev); 
-//    	dbManager.close();
-//    	return b; 
-//    }
-//    @WebMethod	
-//    public String saldoaBistaratu(Registered u) {
-//    	dbManager.open(false);
-//    	String dirua = dbManager.saldoaBistaratu(u);
-//    	dbManager.close();
-//    	return dirua;
-//    }
-//    
-// 
-//	
-//	@WebMethod
-//	public List<Registered> rankingLortu(){
-//		dbManager.open(false);
-//		List<Registered> rank = dbManager.rankingLortu();
-//		dbManager.close();
-//		return rank;
-//	}
-//	
-//	@WebMethod
-//	public List<Event> getEventsAll(){
-//		dbManager.open(false);
-//		List<Event> ev = dbManager.getEventsAll();
-//		dbManager.close();
-//		return ev;
-//	}
-//	
-//	@WebMethod
-//	public boolean gertaerakKopiatu(GertaerakKopiatuParameter params) {
-//		dbManager.open(false);
-//		Boolean b=dbManager.gertaerakKopiatu(params);
-//		dbManager.close();
-//		return b;
-//	}
-//	
-//	@WebMethod
-//	public boolean jarraitu(Registered jabea, Registered jarraitua, Double limit) {
-//		dbManager.open(false);
-//		Boolean b=dbManager.jarraitu(jabea, jarraitua, limit);
-//		dbManager.close();
-//		return b;
-//	}
-//	
-//	
-//	@WebMethod
-//	public Sport popularrenaLortu() {
-//		dbManager.open(false);
-//		Sport s=dbManager.popularrenaLortu();
-//		dbManager.close();
-//		return s;
-//	}
-//	
-//	@WebMethod
-//	public void ezJarraituTaldea(Registered u) {
-//		dbManager.open(false);
-//		dbManager.ezJarraituTaldea(u);
-//		dbManager.close();
-//	}
-//	
-//	@WebMethod
-//	public List<Team> getAllTeams(){
-//		dbManager.open(false);
-//		List<Team> s=dbManager.getAllTeams();
-//		dbManager.close();
-//		return s;
-//	}
-//	
-//	@WebMethod
-//	public void jarraituTaldea(Registered u, Team t) {
-//		dbManager.open(false);
-//		dbManager.jarraituTaldea(u, t);
-//		dbManager.close();
-//	}
-//	
-//	@WebMethod
-//	public Registered findUser(Registered user) {
-//		dbManager.open(false);
-//		Registered u= dbManager.findUser(user);
-//		dbManager.close();
-//		return u;
-//	}
-//	
-//	@WebMethod
-//	public List<Event> getEventsTeam(Team t){
-//		dbManager.open(false);
-//		List<Event> ev= dbManager.getEventsTeam(t);
-//		dbManager.close();
-//		return ev;
-//	}
-//	
-//	
-//	@WebMethod
-//	public Event findEvent(Quote q) {
-//		dbManager.open(false);
-//		Event ev = dbManager.findEvent(q);
-//		dbManager.close();
-//		return ev;
-//	}
-//	
-//	@WebMethod
-//	public Question findQuestionFromQuote(Quote q) {
-//		dbManager.open(false);
-//		Question ev = dbManager.findQuestionFromQuote(q);
-//		dbManager.close();
-//		return ev;
-//	}
-//	
-//	@WebMethod
-//	public Event findEventFromApustua(Apustua q) {
-//		dbManager.open(false);
-//		Event ev = dbManager.findEventFromApustua(q);
-//		dbManager.close();
-//		return ev;
-//	}
-//	
-//	
-//	@WebMethod
-//	public Team findTeam(Registered u) {
-//		dbManager.open(false);
-//		Team team = dbManager.findTeam(u);
-//		dbManager.close();
-//		return team;
-//	}
-//	
-//	public Sport findSport(Event q) {
-//		dbManager.open(false);
-//		Sport team = dbManager.findSport(q);
-//		dbManager.close();
-//		return team;
-//	}
+    @WebMethod	
+    public boolean ApustuaEgin(Registered u, Vector<Quote> q, Double balioa, Integer apustuaGalarazi) {
+    	dbManager.open(false);
+    	boolean b = dbManager.ApustuaEgin(u, q, balioa, apustuaGalarazi);
+    	dbManager.close();
+    	return b; 
+    }
+    @WebMethod	
+    public List<Apustua> findApustua(Registered u){
+    	dbManager.open(false);
+    	List<Apustua> a = dbManager.findApustua(u); 
+    	dbManager.close();
+    	return a; 
+    }
+    
+    @WebMethod
+    public List<ApustuAnitza> findApustuAnitza(Registered u){
+    	dbManager.open(false);
+    	List<ApustuAnitza> a = dbManager.findApustuAnitza(u); 
+    	dbManager.close();
+    	return a;
+    }
+    /*
+    @WebMethod	
+    public List<ApustuaContainer> findApustuaContainer(User u){
+    	dbManager.open(false);
+    	List<ApustuaContainer> a = dbManager.findApustuaContainer(u); 
+    	dbManager.close();
+    	return a; 
+    }*/
+    @WebMethod	
+    public void apustuaEzabatu(Registered user1, ApustuAnitza apustua) {
+    	dbManager.open(false);
+    	dbManager.apustuaEzabatu(user1, apustua);
+    	dbManager.close();
+    }
+    @WebMethod	
+    public List<Transaction> findTransakzioak(Registered u){
+    	dbManager.open(false);
+    	List<Transaction> l = dbManager.findTransakzioak(u);
+    	dbManager.close();
+    	return l; 
+    }
+    @WebMethod	
+    public void EmaitzakIpini(Quote quote) throws EventNotFinished {
+    	dbManager.open(false);
+    	dbManager.EmaitzakIpini(quote);
+    	dbManager.close();
+    }
+    @WebMethod	
+    public boolean gertaeraEzabatu(Event ev) {
+    	dbManager.open(false);
+    	boolean b = dbManager.gertaeraEzabatu(ev); 
+    	dbManager.close();
+    	return b; 
+    }
+    @WebMethod	
+    public String saldoaBistaratu(Registered u) {
+    	dbManager.open(false);
+    	String dirua = dbManager.saldoaBistaratu(u);
+    	dbManager.close();
+    	return dirua;
+    }
+    
+ 
+	
+	@WebMethod
+	public List<Registered> rankingLortu(){
+		dbManager.open(false);
+		List<Registered> rank = dbManager.rankingLortu();
+		dbManager.close();
+		return rank;
+	}
+	
+	@WebMethod
+	public List<Event> getEventsAll(){
+		dbManager.open(false);
+		List<Event> ev = dbManager.getEventsAll();
+		dbManager.close();
+		return ev;
+	}
+	
+	@WebMethod
+	public boolean gertaerakKopiatu(GertaerakKopiatuParameter params) {
+		dbManager.open(false);
+		Boolean b=dbManager.gertaerakKopiatu(params);
+		dbManager.close();
+		return b;
+	}
+	
+	@WebMethod
+	public boolean jarraitu(Registered jabea, Registered jarraitua, Double limit) {
+		dbManager.open(false);
+		Boolean b=dbManager.jarraitu(jabea, jarraitua, limit);
+		dbManager.close();
+		return b;
+	}
+	
+	
+	@WebMethod
+	public Sport popularrenaLortu() {
+		dbManager.open(false);
+		Sport s=dbManager.popularrenaLortu();
+		dbManager.close();
+		return s;
+	}
+	
+	@WebMethod
+	public void ezJarraituTaldea(Registered u) {
+		dbManager.open(false);
+		dbManager.ezJarraituTaldea(u);
+		dbManager.close();
+	}
+	
+	@WebMethod
+	public List<Team> getAllTeams(){
+		dbManager.open(false);
+		List<Team> s=dbManager.getAllTeams();
+		dbManager.close();
+		return s;
+	}
+	
+	@WebMethod
+	public void jarraituTaldea(Registered u, Team t) {
+		dbManager.open(false);
+		dbManager.jarraituTaldea(u, t);
+		dbManager.close();
+	}
+	
+	@WebMethod
+	public Registered findUser(Registered user) {
+		dbManager.open(false);
+		Registered u= dbManager.findUser(user);
+		dbManager.close();
+		return u;
+	}
+	
+	@WebMethod
+	public List<Event> getEventsTeam(Team t){
+		dbManager.open(false);
+		List<Event> ev= dbManager.getEventsTeam(t);
+		dbManager.close();
+		return ev;
+	}
+	
+	
+	@WebMethod
+	public Event findEvent(Quote q) {
+		dbManager.open(false);
+		Event ev = dbManager.findEvent(q);
+		dbManager.close();
+		return ev;
+	}
+	
+	@WebMethod
+	public Question findQuestionFromQuote(Quote q) {
+		dbManager.open(false);
+		Question ev = dbManager.findQuestionFromQuote(q);
+		dbManager.close();
+		return ev;
+	}
+	
+	@WebMethod
+	public Event findEventFromApustua(Apustua q) {
+		dbManager.open(false);
+		Event ev = dbManager.findEventFromApustua(q);
+		dbManager.close();
+		return ev;
+	}
+	
+	
+	@WebMethod
+	public Team findTeam(Registered u) {
+		dbManager.open(false);
+		Team team = dbManager.findTeam(u);
+		dbManager.close();
+		return team;
+	}
+	
+	public Sport findSport(Event q) {
+		dbManager.open(false);
+		Sport team = dbManager.findSport(q);
+		dbManager.close();
+		return team;
+	}
 }
 

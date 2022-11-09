@@ -15,6 +15,7 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import configuration.UtilDate;
+import dataAccess.DataAccess;
 import dataAccess.DataAccessGertaerakSortu;
 import domain.Event;
 import domain.EventParam;
@@ -22,10 +23,10 @@ import domain.Team;
 
 public class gertaerakSortuMockIntTest {
 	
-	DataAccessGertaerakSortu da = Mockito.mock(DataAccessGertaerakSortu.class);
+	DataAccess da = Mockito.mock(DataAccess.class);
 	
 	@InjectMocks
-	BLFacade sut = new BLFacadeImplementation(da);
+	BLFacade sut = new BLFacadeImplementation(false);
 
 	Calendar today = Calendar.getInstance();
 	String description;
