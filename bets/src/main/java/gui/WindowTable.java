@@ -15,7 +15,7 @@ public class WindowTable extends JFrame {
 	private JTable	tabla;
 
 	public WindowTable(Registered user){
-		super("Apuestas	realizadas	por	"+	user.getUsername() +":");
+		super("Apuestas realizadas por "+	user.getUsername() +":");
 		this.setBounds(100,	100,	700,	200);
 		this.user =	user;
 

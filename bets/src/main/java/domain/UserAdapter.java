@@ -9,24 +9,19 @@ public class UserAdapter extends AbstractTableModel {
 	private final Vector<ApustuAnitza> apuestas;
 	private Registered user;
 	private String[] colNames = new String[] {"Event", "Question", "Event Date", "Bet (€)"};
-	
 	public UserAdapter(Registered user) {
 		apuestas = new Vector<ApustuAnitza>(user.getApustuAnitzak());
 		this.user = user;
 	}
-
 	public int getRowCount() {
 		return apuestas.size();
 	}
-
 	public int getColumnCount() {
 		return 4;
 	}
-
 	public String getColumnName(int col) {
 		return colNames[col];
 	}
-	
 	public Object getValueAt(int rowIndex, int columnIndex) {
 		switch(columnIndex) {
 		case 0: return (Object)apuestas.get(rowIndex).getApustuak();
@@ -36,5 +31,4 @@ public class UserAdapter extends AbstractTableModel {
 		}
 		return null;
 	}
-	
 }

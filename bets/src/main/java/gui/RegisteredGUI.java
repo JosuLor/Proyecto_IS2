@@ -54,7 +54,7 @@ public class RegisteredGUI extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnRank;
 	private JButton btnDestacados;
-	private JButton jButtonVerMirApuestas;
+	private JButton jButtonVerMisApuestas;
 	
 	/**
 	 * This is the default constructor
@@ -120,22 +120,22 @@ public class RegisteredGUI extends JFrame {
 	}
 	
 	public JButton getJButtonVerMisApuestas() {
-		if(jButtonVerMirApuestas == null) {
-			jButtonVerMirApuestas = new JButton();
-			jButtonVerMirApuestas.setFont(new Font("Tahoma", Font.PLAIN, 16));
-			jButtonVerMirApuestas.setForeground(Color.DARK_GRAY);
-			jButtonVerMirApuestas.setBackground(Color.PINK);
-			jButtonVerMirApuestas.setOpaque(true);
-			jButtonVerMirApuestas.setText(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.jButtonVerMirApuestas.text"));
-			jButtonVerMirApuestas.setBounds(10, 391, 282, 68);
-			jButtonVerMirApuestas.addActionListener(new java.awt.event.ActionListener() {
+		if(jButtonVerMisApuestas == null) {
+			jButtonVerMisApuestas = new JButton();
+			jButtonVerMisApuestas.setFont(new Font("Tahoma", Font.PLAIN, 16));
+			jButtonVerMisApuestas.setForeground(Color.DARK_GRAY);
+			jButtonVerMisApuestas.setBackground(Color.PINK);
+			jButtonVerMisApuestas.setOpaque(true);
+			jButtonVerMisApuestas.setText(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.jButtonVerMirApuestas.text"));
+			jButtonVerMisApuestas.setBounds(10, 391, 282, 68);
+			jButtonVerMisApuestas.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
 					JFrame a = new WindowTable(user);
 					a.setVisible(true);
 				}
 			});
 		}
-		return jButtonVerMirApuestas;
+		return jButtonVerMisApuestas;
 	}
 	
 	/**
