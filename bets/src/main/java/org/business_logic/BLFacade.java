@@ -13,6 +13,7 @@ import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
 import domain.EventParam;
+import domain.ExtendedIterator;
 //import domain.Booking;
 import domain.Question;
 import domain.Quote;
@@ -52,6 +53,14 @@ public interface BLFacade  {
 	 * @return collection of events
 	 */
 	@WebMethod public Vector<Event> getEvents(Date date);
+	
+	
+	/**
+	 * 
+	 * @param date
+	 * @return
+	 */
+   @WebMethod public ExtendedIterator<Event> getEventsIterator(Date date);
 	
 	/**
 	 * This method retrieves from the database the dates a month for which there are events

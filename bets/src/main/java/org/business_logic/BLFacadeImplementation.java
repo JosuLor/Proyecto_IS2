@@ -17,6 +17,8 @@ import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
 import domain.EventParam;
+import domain.ExtendedIterator;
+import domain.ExtendedIteratorEvents;
 import domain.Question;
 import domain.Quote;
 import domain.Registered;
@@ -79,10 +81,17 @@ public class BLFacadeImplementation implements BLFacade {
     @WebMethod	
 	public Vector<Event> getEvents(Date date)  {
 		dbManager.open(false);
-		Vector<Event>  events=dbManager.getEvents(date);
+		Vector<Event> events = dbManager.getEvents(date);
 		dbManager.close();
 		return events;
 	}
+    
+    @WebMethod
+    public ExtendedIterator<Event> getEventsIterator(Date date){
+    	Vector<Event> vector = getEvents(date);
+		ExtendedIterator<Event> eventsIterator = new ExtendedIteratorEvents(vector);
+		return eventsIterator;
+    }
 
     
 	/**
